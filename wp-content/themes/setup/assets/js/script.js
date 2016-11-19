@@ -1,0 +1,9 @@
+(function($){
+    $("#hamburger").click(function(){
+        $("body").toggleClass("nav-open");
+        $("html").toggleClass("not-scrollable");
+    });
+    $('.tabs-nav-list').eq(0).addClass('active');
+    $('.tab-pane').removeClass('active');
+    $('.tab-pane').eq(0).addClass('active');
+})(jQuery)

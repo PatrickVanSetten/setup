@@ -1,0 +1,17 @@
+{
+ "name": "zekerzichtbaar",
+ "version": "1.0.0",
+ "dependencies": {
+   "gulp": "^3.5.6",
+   "gulp-sass": "^2.0.4",
+   "gulp-concat": "^2.2.0",
+   "gulp-minify-css": "^0.3.0",
+   "gulp-rename": "^1.2.0",
+    "vinyl-ftp": "*",
+    "gulp-livereload":"*"
+ },
+ "devDependencies": {
+   "gulp-util": "^2.2.14",
+   "shelljs": "^0.3.0"
+ }
+}
