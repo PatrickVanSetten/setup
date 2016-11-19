@@ -13,14 +13,11 @@ function offsetcontainer(){
         ruimte = ruimte / 2;
     jQuery('.adressbarright').css('width',ruimte);
     jQuery('.newswrapperbg').css('width',ruimte);
-    
-    jQuery(window).resize(function(){
-        offsetcontainer();
-    })
-    
 }offsetcontainer();
 
-
+jQuery(window).resize(function(){
+    offsetcontainer();
+})
 
 (jQuery)
 
