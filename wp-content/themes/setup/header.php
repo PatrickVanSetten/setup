@@ -14,13 +14,13 @@
     <div class="adressbarright"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-md-6 brand">
+            <div class="col-lg-8 col-md-6 col-sm-6 col-xs-4 brand">
                 <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
             </div>
-            <div class="col-lg-4 col-md-6 adressbartop">
+            <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs adressbartop">
                 <span>Marktstraat 59, 3925 JP Scherpenzeel        Lid worden        Contact</span>
             </div>
-            <div class="menu text-right">
+            <div class="menuwrapper text-right">
                 <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0));?>
             </div>
         </div>
