@@ -42,6 +42,14 @@
  'before_title' => '<h3 class="footertitle">',
  'after_title' => '</h3>',
  ));
+ register_sidebar(array(
+ 'name' => 'Footer Widget 5',
+ 'id' => 'footer5',
+ 'before_widget' => '',
+ 'after_widget' => '',
+ 'before_title' => '<h3 class="footertitle">',
+ 'after_title' => '</h3>',
+ ));
 register_sidebar(array(
  'name' => 'Widget',
  'id' => 'widget',
