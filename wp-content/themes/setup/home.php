@@ -5,6 +5,7 @@
 
 get_header(); ?>
 
+
 <section id="news" class="pan">
     <div class="carousel" data-flickity='{ "lazyLoad": true, "pageDots": false, "wrapAround": true }'> 
         <div class="carousel-cell">
@@ -28,9 +29,5 @@ get_header(); ?>
 <section id="featured-items" class="bg-grey">
 <br><br><br><br>
 </section>
-
-
-
-
 
 <?php get_footer();?>
