@@ -112,12 +112,9 @@ section{
 #navbar {
     background-color: $blue;
     width: 100%;
-    .brand img {
-        max-width: 9.5rem;
-        max-height: 11.2rem;
-        margin-top: -4rem;
-        margin-bottom: 2rem;
-        float: left;
+    .logo {
+        display: inline-block;
+        line-height: 8;
     }
     li {
         list-style: none;
@@ -129,8 +126,13 @@ section{
         text-decoration: none;
     }
     .menu {
-        float:right;
-        margin-top:1.4rem;
+        display: inline-block;
+        float: right;
+        a {
+            display: inline-block;
+            padding: 3.3rem 0;
+            margin-left: 0.5rem;
+        }
     }
     .adressbarright {
         position:absolute;
@@ -138,7 +140,6 @@ section{
         top:0;
         background-color:$grey;
         height:5rem;
-        width: 10px;
     }
     .adressbartop {
         background-color:$grey;

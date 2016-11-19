@@ -9,16 +9,15 @@
 })
 
 function adressbarright(){
-    var ruimte = jQuery(window).width() - jQuery('.container').width();
+    var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
         ruimte = ruimte / 2;
     jQuery('.adressbarright').css('width',ruimte);
+    
+    jQuery(window).resize(function(){
+        adressbarright();
+    })
+    
 }adressbarright();
-
-jQuery(window).resize(function(){
-    adressbarright();
-})
-
-
 
 (jQuery)
 

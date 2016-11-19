@@ -12,15 +12,15 @@
     
 <section id="navbar" class="pan hidden-sm hidden-xs">
     <div class="adressbarright"></div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-8 col-md-6 col-md-offset-6 adressbartop">
-                <span>Marktstraat 59, 3925 JP Scherpenzeel        Lid worden        Contact</span>
-            </div>
-            <div class="brand">
+            <div class="col-lg-8 col-md-6 brand">
                 <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
             </div>
-            <div class="menu">
+            <div class="col-lg-4 col-md-6 adressbartop">
+                <span>Marktstraat 59, 3925 JP Scherpenzeel        Lid worden        Contact</span>
+            </div>
+            <div class="menu text-right">
                 <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0));?>
             </div>
         </div>
