@@ -11,9 +11,10 @@
 <body <?php body_class( $class ); ?>>
     
 <section id="navbar" class="pan hidden-sm hidden-xs">
+    <div class="adressbarright"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-8 col-md-6 col-md-offset-6 adressbar">
+            <div class="col-lg-4 col-lg-offset-8 col-md-6 col-md-offset-6 adressbartop">
                 <span>Marktstraat 59, 3925 JP Scherpenzeel        Lid worden        Contact</span>
             </div>
             <div class="brand">

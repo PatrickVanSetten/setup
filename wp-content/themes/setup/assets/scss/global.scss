@@ -126,10 +126,18 @@ section{
         float:right;
         margin-top:1.4rem;
     }
-    .adressbar {
+    .adressbarright {
+        position:absolute;
+        right: 0;
+        top:0;
+        background-color:$grey;
+        height:5rem;
+        width: 10px;
+    }
+    .adressbartop {
         background-color:$grey;
         padding:1.6rem 0;
-        font-size:1.2rem;
+        font-size:1.2rem; 
         color:#000;  
         float:right;
         text-align:right;
@@ -143,15 +151,6 @@ section{
             border-top: 5rem solid $grey;
             border-left: 5rem solid transparent;
             z-index: 999;
-        }
-        &:after {
-            content:"";
-            position:absolute;
-            right: -100rem;
-            top:0;
-            width: 100rem;
-            background-color:$grey;
-            height:5rem;
         }
     }
 }

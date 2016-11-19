@@ -6,4 +6,19 @@
     $('.tabs-nav-list').eq(0).addClass('active');
     $('.tab-pane').removeClass('active');
     $('.tab-pane').eq(0).addClass('active');
-})(jQuery)
+})
+
+function adressbarright(){
+    var ruimte = jQuery(window).width() - jQuery('.container').width();
+        ruimte = ruimte / 2;
+    jQuery('.adressbarright').css('width',ruimte);
+}adressbarright();
+
+jQuery(window).resize(function(){
+    adressbarright();
+})
+
+
+
+(jQuery)
+
