@@ -8,16 +8,19 @@
     $('.tab-pane').eq(0).addClass('active');
 })
 
-function adressbarright(){
+function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
         ruimte = ruimte / 2;
     jQuery('.adressbarright').css('width',ruimte);
+    jQuery('.newswrapperbg').css('width',ruimte);
     
     jQuery(window).resize(function(){
-        adressbarright();
+        offsetcontainer();
     })
     
-}adressbarright();
+}offsetcontainer();
+
+
 
 (jQuery)
 
