@@ -39,6 +39,41 @@ get_header(); ?>
         </div>
     </div>
 </section>
+<section id="featured-items" class="bg-grey">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 sponsor">
+                <div class="featured-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/sponsor.jpg')"></div>
+                    <div class="featured-content">
+                        <h3>Balsponsor van de week</h3>
+                        <span>subtitle</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 mini-ster">
+                <div class="featured-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/minister.jpg')"></div>
+                    <div class="featured-content">
+                        <h3>Mini-ster van de week</h3>
+                        <span>subtitle</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 birthdays">
+                <div class="featured-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="featured-content">
+                        <h3>Balsponsor van de week</h3>
+                        <span>subtitle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php get_footer();?>

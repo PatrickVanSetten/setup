@@ -234,6 +234,27 @@ section{
         top:0;
     }
 }
+/* Featured items */
+.featured-wrapper {
+    position:relative;
+    .featured-image {
+        height:35rem;
+        background-size:cover;
+        background-position:center center;
+    }
+    .featured-content{
+        padding:3rem;
+        h3{
+            margin-top:0;
+            color:$title;
+            text-transform:uppercase;
+            font-weight:700;
+        }
+        p{
+            margin-bottom:0;
+        }
+    }
+}
 
 /* Events */
 .event-wrapper{
