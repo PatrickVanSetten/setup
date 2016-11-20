@@ -293,7 +293,7 @@ section{
 /* Sponsors */
 #sponsors {
     .flickity-enabled {
-                margin-top:3rem; 
+        margin-top:3rem; 
     }
     .flickity-viewport {
         height:16rem !important;
@@ -303,6 +303,8 @@ section{
     }
     .carousel-cell {
         width: 25%;
+        height: 100%;
+        max-height:10rem;
         counter-increment: gallery-cell;
         border-right:1px #EFEFEF solid;
         img {

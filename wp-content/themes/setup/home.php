@@ -103,7 +103,7 @@ get_header(); ?>
                         <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                     </div>
                     <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-van-heugten.png">
                     </div>
                     <div class="carousel-cell">
                         <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
