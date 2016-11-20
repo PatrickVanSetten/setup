@@ -67,6 +67,14 @@ a:focus,
 .bg-white{
     background-color:white;
 }
+h1 {
+    
+}
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
 p{
     line-height:1.75;
 }
@@ -213,11 +221,6 @@ section{
             width: 0rem;
         }
         .newswrapper {
-            h2 {
-                font-weight: 700;  
-                text-transform:uppercase;
-                color:$title;
-            }
             .date {
                 display:block;
                 font-size:1.4rem;
@@ -257,16 +260,38 @@ section{
     }
 }
 .birthdays {
-    background-color:$blue;
+    background-color:$darkblue;
     color:#fff;
+    height: 47rem;
     .featured-wrapper {
         .featured-content {
             h3 {
                 color:#fff;
-            }  
+            }
+            .person {
+                width: 100%;
+                border-bottom: 1px #254181 solid;
+                padding: 2.5rem 0;
+                &:nth-child(6) {
+                    border: none;
+                }
+                .date {
+                    color:#B9B9B9;
+                    font-size:1.4rem;
+                    display:inline-block;
+                }
+                .name {
+                    display:inline-block;
+                    font-weight:500;
+                    padding-left:1rem;
+                }
+            }
         }
     }
 }
+
+/* Sponsors */
+
 
 /* Events */
 .event-wrapper{

@@ -64,11 +64,33 @@ get_header(); ?>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 birthdays">
                 <div class="featured-wrapper">
-                    <a href="#" class="coverlink"></a>
                     <div class="featured-content">
-                        <h3>Jarigen</h3>
-                        <span class="date">24 maart</span>
-                        <span class="name">Mika van Setta</span>
+                        <h3>Onze jarigen</h3>
+                        <div class="person">
+                            <span class="date">24 maart</span>
+                            <span class="name">Mika van Setta</span>
+                            <span class="seperator"></span>
+                        </div>
+                        <div class="person">
+                            <span class="date">25 maart</span>
+                            <span class="name">Ron Brandsteder</span>
+                            <span class="seperator"></span>
+                        </div>
+                        <div class="person">
+                            <span class="date">04 april</span>
+                            <span class="name">Andre Pronk</span>
+                            <span class="seperator"></span>
+                        </div>
+                        <div class="person">
+                            <span class="date">14 april</span>
+                            <span class="name">Jan Joost van Gangelen</span>
+                            <span class="seperator"></span>
+                        </div>
+                        <div class="person">
+                            <span class="date">16 april</span>
+                            <span class="name">Manon Stoffol</span>
+                            <span class="seperator"></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,5 +98,64 @@ get_header(); ?>
     </div>
 </section>
 
+<section id="sponsors" class="text-center">
+    <div class="container-fluid">
+        <div class="row">
+            <h2>Sponsoren</h2>
+        </div>
+    </div>
+</section>
+
+<section id="evenementen" class="bg-grey">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="event-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="event-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/laura-dijkema.jpg')">
+                        <div class="date-wrapper">
+                            <div class="date">15</div>
+                            <div class="month">Apr</div>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Masterclass Laura Dijkema</h3>
+                        <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="event-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="event-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/laura-dijkema.jpg')">
+                        <div class="date-wrapper">
+                            <div class="date">15</div>
+                            <div class="month">Apr</div>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Masterclass Laura Dijkema</h3>
+                        <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="event-wrapper bg-white">
+                    <a href="#" class="coverlink"></a>
+                    <div class="event-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/laura-dijkema.jpg')">
+                        <div class="date-wrapper">
+                            <div class="date">15</div>
+                            <div class="month">Apr</div>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Masterclass Laura Dijkema</h3>
+                        <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer();?>
