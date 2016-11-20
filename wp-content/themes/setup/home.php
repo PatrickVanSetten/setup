@@ -97,36 +97,24 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <h2>Sponsoren</h2>
-            <div class="carousel" data-flickity='{ "lazyLoad": true, "pageDots": true, "wrapAround": true, "contain": true, "prevNextButtons": false}'> 
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "draggable": false, "pageDots": true, "wrapAround": true, "prevNextButtons": false}'> 
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
                 <div class="carousel-cell">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 logo">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>
             </div>
         </div>
