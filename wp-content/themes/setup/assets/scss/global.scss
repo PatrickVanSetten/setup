@@ -291,7 +291,13 @@ section{
 }
 
 /* Sponsors */
-
+#sponsors {
+    .carousel-cell {
+        width: 25%;
+        counter-increment: gallery-cell;
+        @include flexbox;
+    }
+}
 
 /* Events */
 .event-wrapper{

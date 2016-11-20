@@ -112,15 +112,13 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 8px;
-  background: #333;
-  border-radius: 50%;
-  opacity: 0.25;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background: #D8D8D8;
   cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
-  opacity: 1;
+  background: #2E4A89;
 }
