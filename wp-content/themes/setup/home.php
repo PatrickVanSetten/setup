@@ -97,7 +97,7 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <h2>Sponsoren</h2>
-            <div class="carousel" data-flickity='{ "cellAlign": "left", "draggable": false, "pageDots": true, "wrapAround": true, "prevNextButtons": false}'> 
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "draggable": false, "pageDots": true, "wrapAround": true, "prevNextButtons": false}'>
                 <div class="carousel-cell">
                     <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
                 </div>

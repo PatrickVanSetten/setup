@@ -292,10 +292,28 @@ section{
 
 /* Sponsors */
 #sponsors {
+    .flickity-enabled {
+                margin-top:3rem; 
+    }
+    .flickity-viewport {
+        height:16rem !important;
+    }
+    .flickity-page-dots {
+        bottom: 1.5rem; 
+    }
     .carousel-cell {
         width: 25%;
         counter-increment: gallery-cell;
-        @include flexbox;
+        border-right:1px #EFEFEF solid;
+        img {
+            @include filter (grayscale(100%))
+            @include opacity(0.5);
+            @include transition(0.3s all ease-in-out);
+            &:hover {
+                @include opacity(1);
+                @include filter (grayscale(0%))
+            }
+        }
     }
 }
 
