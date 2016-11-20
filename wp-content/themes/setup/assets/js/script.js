@@ -13,11 +13,17 @@ function offsetcontainer(){
         ruimte = ruimte / 2;
     jQuery('.adressbarright').css('width',ruimte);
     jQuery('.newswrapperbg').css('width',ruimte);
+    jQuery('.photowrapperbg').css('width',ruimte);
 }offsetcontainer();
 
 jQuery(window).resize(function(){
     offsetcontainer();
 })
+
+function equalheight() {
+    var height = jQuery('.photowrapper').height();
+    jQuery('.photo-wrapper::after').css('border-top',height);
+}equalheight();
 
 (jQuery)
 

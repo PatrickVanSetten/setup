@@ -292,6 +292,38 @@ section{
     }
 }
 
+/* Photos */
+#photos {
+    position:relative;
+    .photowrapperbg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height:calc(100% - 8rem);
+        margin-top:4rem;
+        background-color:#fff;
+        z-index:999;
+        padding:4rem 0;
+    }
+    .photo-wrapper {
+        padding: 7rem 0;
+        h2 {
+            padding-bottom:4rem;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -125px;
+            border-top: 42rem solid #fff;
+            border-right: 14rem solid transparent;
+            height: 0;
+            width: 0rem;
+        }
+    }
+}
+
+
 /* Sponsors */
 #sponsors {
     .flickity-enabled {
