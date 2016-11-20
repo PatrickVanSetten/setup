@@ -86,11 +86,6 @@ get_header(); ?>
                             <span class="name">Jan Joost van Gangelen</span>
                             <span class="seperator"></span>
                         </div>
-                        <div class="person">
-                            <span class="date">16 april</span>
-                            <span class="name">Manon Stoffol</span>
-                            <span class="seperator"></span>
-                        </div>
                     </div>
                 </div>
             </div>
