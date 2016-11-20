@@ -248,10 +248,22 @@ section{
             margin-top:0;
             color:$title;
             text-transform:uppercase;
+            font-size:2rem;
             font-weight:700;
         }
         p{
             margin-bottom:0;
+        }
+    }
+}
+.birthdays {
+    background-color:$blue;
+    color:#fff;
+    .featured-wrapper {
+        .featured-content {
+            h3 {
+                color:#fff;
+            }  
         }
     }
 }

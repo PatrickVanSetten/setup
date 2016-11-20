@@ -63,11 +63,12 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 birthdays">
-                <div class="featured-wrapper bg-white">
+                <div class="featured-wrapper">
                     <a href="#" class="coverlink"></a>
                     <div class="featured-content">
-                        <h3>Balsponsor van de week</h3>
-                        <span>subtitle</span>
+                        <h3>Jarigen</h3>
+                        <span class="date">24 maart</span>
+                        <span class="name">Mika van Setta</span>
                     </div>
                 </div>
             </div>
