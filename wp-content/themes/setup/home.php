@@ -99,24 +99,12 @@ get_header(); ?>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2>Sponsoren</h2>
                 <div class="carousel" data-flickity='{ "cellAlign": "left", "draggable": false, "pageDots": true, "wrapAround": true, "prevNextButtons": false}'>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-van-heugten.png">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png">
-                    </div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png')"></div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-van-heugten.png')"></div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png')"></div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-van-heugten.png')"></div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-kromme-hoek.png')"></div>
+                    <div class="carousel-cell" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/logo-van-heugten.png')"></div>
                 </div>
             </div>
         </div>
