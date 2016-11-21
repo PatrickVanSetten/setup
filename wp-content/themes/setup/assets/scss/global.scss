@@ -310,16 +310,16 @@ section{
         h2 {
             padding-bottom:4rem;
         }
-        &:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: -125px;
-            border-top: 42rem solid #fff;
-            border-right: 14rem solid transparent;
-            height: 0;
-            width: 0rem;
-        }
+    }
+    .photowrapper-offset {
+        display:block;
+        position: absolute;
+        top: 0;
+        right: -125px;
+        border-top: 42rem solid #fff;
+        border-right: 14rem solid transparent;
+        height: 0;
+        width: 0;
     }
 }
 

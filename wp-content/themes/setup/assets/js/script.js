@@ -20,10 +20,8 @@ jQuery(window).resize(function(){
     offsetcontainer();
 })
 
-function equalheight() {
-    var height = jQuery('.photowrapper').height();
-    jQuery('.photo-wrapper::after').css('border-top',height);
-}equalheight();
+var height = jQuery('#photos').height();
+jQuery('.photowrapper-offset').css('border-top-width',height);
 
 (jQuery)
 

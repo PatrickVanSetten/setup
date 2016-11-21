@@ -121,6 +121,7 @@ get_header(); ?>
                     <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
                     <a href="#" class="button">Lees dit bericht</a>
                 </div>
+                <span class="photowrapper-offset"></span>
             </div>
         </div>
     </div>
