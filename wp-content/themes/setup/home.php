@@ -5,38 +5,39 @@
 
 get_header(); ?>
 
-
 <section id="news" class="pan">
     <div class="newswrapperbg"></div>
     <div class="carousel" data-flickity='{ "lazyLoad": true, "pageDots": false, "wrapAround": true }'> 
+        
+        <?php 
+            $args = array( 'post_type' => 'post', 'posts_per_page' => 3 );
+            $myposts = get_posts($args);
+            foreach ($myposts as $post) : setup_postdata($post);
+        ?>
         <div class="carousel-cell">
             <div class="container-fluid">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent">
                     <div class="newswrapper">
-                        <h2>DAMES 1 BEKERT VERDER</h2>
-                        <span class="date">20 november</span>
-                        <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
-                        <a href="#" class="button">Lees dit bericht</a>
+                        <h2><?php the_title();?></h2>
+                        <span class="date"><?php echo get_the_date();?></span>
+                        <?php the_excerpt();?>
+                        <a href="<?php the_permalink(); ?>" class="button">Lees dit bericht</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6 newsimage" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/header.jpg');">
+             <?php
+                    $thumb = get_post_thumbnail_id(); 
+                    $image = vt_resize( $thumb, '', 1600, 900, true );
+                    ?>
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6 newsimage" style="background-image:url('<?php echo $image[url]; ?>');">
             </div>
         </div>
-        <div class="carousel-cell">
-            <div class="container-fluid">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent">
-                    <div class="newswrapper">
-                        <h2>DAMES 1 BEKERT VERDER</h2>
-                        <span class="date">20 november</span>
-                        <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
-                        <a href="#" class="button">Lees dit bericht</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6 newsimage" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/header.jpg');">
-            </div>
-        </div>
+        <?php
+            endforeach;
+            echo $return;
+            $return = '';
+            wp_reset_postdata();
+        ?>
     </div>
 </section>
 <section id="featured-items" class="bg-grey">

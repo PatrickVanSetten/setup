@@ -331,20 +331,20 @@ add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);
 /*
  * Add a portfolio custom post type.
  */
-add_action('init', 'create_redvine_projecten');
-function create_redvine_projecten() 
+add_action('init', 'create_redvine_spelers');
+function create_redvine_spelers() 
 {
   $labels = array(
-    'name' => _x('Projecten', 'projecten'),
-    'singular_name' => _x('Projecten', 'projecten'),
-    'add_new' => _x('Nieuw project', 'projecten'),
-    'add_new_item' => __('Nieuw project'),
-    'edit_item' => __('Bewerk project'),
-    'new_item' => __('Nieuw project'),
-    'view_item' => __('Bekijk project'),
-    'search_items' => __('Zoek naar een project'),
-    'not_found' =>  __('Geen project gevonden'),
-    'not_found_in_trash' => __('Geen project in de prullenbak gevonden'), 
+    'name' => _x('Spelers', 'spelers'),
+    'singular_name' => _x('Spelers', 'spelers'),
+    'add_new' => _x('Nieuwe speler', 'spelers'),
+    'add_new_item' => __('Nieuw spelers'),
+    'edit_item' => __('Bewerk speler'),
+    'new_item' => __('Nieuw speler'),
+    'view_item' => __('Bekijk speler'),
+    'search_items' => __('Zoek naar een speler'),
+    'not_found' =>  __('Geen speler gevonden'),
+    'not_found_in_trash' => __('Geen speler in de prullenbak gevonden'), 
     'parent_item_colon' => ''
   );
   $args = array(
@@ -354,18 +354,27 @@ function create_redvine_projecten()
     'query_var' => true,
     'rewrite' => true,
     'capability_type' => 'post',
-    'menu_icon' => 'dashicons-admin-appearance',
+    'menu_icon' => 'dashicons-groups',
     'hierarchical' => false,
     'menu_position' => 20,
     'supports' => array('title','thumbnail','revisions', 'editor')
   ); 
-  register_post_type('projecten',$args);
+  register_post_type('spelers',$args);
 }
 
-register_taxonomy( "projecten-categories", 
-	array( 	"projecten" ), 
+register_taxonomy( "spelers-teams", 
+	array( 	"spelers" ), 
 	array( 	"hierarchical" => true,
-			"labels" => array('name'=>"Categorieën",'add_new_item'=>"Voeg categorie toe"), 
+			"labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"), 
+			"singular_label" => __( "Field" ), 
+			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
+							'with_front' => false)
+		 ) 
+);
+register_taxonomy( "spelers-coaches", 
+	array( 	"spelers" ), 
+	array( 	"hierarchical" => true,
+			"labels" => array('name'=>"Coaches",'add_new_item'=>"Voeg coach toe"), 
 			"singular_label" => __( "Field" ), 
 			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
 							'with_front' => false)
@@ -375,9 +384,9 @@ register_taxonomy( "projecten-categories",
 add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
 function tsm_filter_post_type_by_taxonomy() {
 	global $typenow;
-	$post_type = 'projecten'; // change to your post type
+	$post_type = 'spelers'; // change to your post type
 	$taxonomy  = 'projecten-categories'; // change to your taxonomy
-	if ($typenow == $post_type) {
+	if ($typenow == spelers) {
 		$selected      = isset($_GET[$taxonomy]) ? $_GET[$taxonomy] : '';
 		$info_taxonomy = get_taxonomy($taxonomy);
 		wp_dropdown_categories(array(
@@ -546,3 +555,7 @@ if ( !function_exists( 'vt_resize') ) {
 		return $vt_image;
 	}
 }
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );

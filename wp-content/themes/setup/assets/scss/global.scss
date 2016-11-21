@@ -215,7 +215,7 @@ section{
                     display:block;
                     font-size:1.4rem;
                     color:#B9B9B9;
-                    padding-bottom:3rem;
+                    padding-bottom:2rem;
                 }
             }
         }
@@ -225,7 +225,19 @@ section{
             position:absolute;
             right:0;
             top:0;
+            @include transition(0.3s all ease-in-out);
         }
+        /*&.is-selected{
+            .newsimage{
+                @include transform(translateX(0));
+                visibility:visible;
+                z-index:0;
+            }
+            .newscontent{
+                @include opacity(1);
+                visibility:visible;
+            }
+        }*/
     }
     position:relative;
     .newswrapperbg {
@@ -237,6 +249,16 @@ section{
         background-color:#fff;
         z-index:999;
     }
+    
+    /* Flickity style */
+    /*.flickity-slider {
+      transform: none !important;
+    }
+
+    .gallery-cell {
+        left: 0 !important;
+        visibility:visible !important;
+    }*/
 }
 
 /* Featured items */
@@ -295,6 +317,8 @@ section{
 /* Photos */
 #photos {
     position:relative;
+    background-size:cover;
+    background-position:center center;
     .photowrapperbg {
         position: absolute;
         top: 0;
@@ -376,7 +400,7 @@ section{
             display:inline-block;
             padding:2rem;
             color:$blue;
-            line-height:1.25;
+            line-height:1;
             text-align:center;
             .date{
                 font-size:2.5rem;
