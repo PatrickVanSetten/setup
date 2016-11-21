@@ -431,25 +431,25 @@ section{
     .aboutwrapperbg {
         position: absolute;
         top: auto;
-        bottom:-4rem;
+        bottom: -4rem;
         left: 0;
-        height:calc(100% - 8rem);
-        margin-top:4rem;
-        background-color:#fff;
-        z-index:999;
-        padding:4rem 0;
+        height: 100%;
+        margin-top: 4rem;
+        background-color: #fff;
+        z-index: 999;
+        padding: 4rem 0;
     }
     .about-wrapper {
         padding: 7rem 0;
-        position:relative;
-        bottom:-8rem;
-        z-index:2;
+        position: relative;
+        bottom: -4rem;
+        z-index: 2;
         h2 {
             padding-bottom:4rem; 
         }
     }
     .aboutwrapper-offset {
-        display:block;
+        display:block; 
         position: absolute;
         top: 0;
         right: -110px;
@@ -470,11 +470,11 @@ section{
             content:"";
             position: absolute;
             top: 0;
-            left: -2rem;
+            left: -4.3rem;
             width: 180px;
             height: 0;
-            border-top: 39rem solid #F2F2F2;
-            border-right: 11rem solid transparent;
+            border-top: 42rem solid #F2F2F2;
+            border-right: 12rem solid transparent;
             z-index: 1;
         }
     }
@@ -484,7 +484,7 @@ section{
 /* Footer */
 footer{
     background-color:$blue;
-    padding:5rem 0;
+    padding:6rem 0;
     color:white;
     font-size:1.75rem;
     line-height:1.75;

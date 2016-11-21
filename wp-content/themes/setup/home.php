@@ -180,7 +180,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section id="about" class="bg-grey">
+<section id="about" class="bg-grey pan">
     <div class="aboutwrapperbg"></div>
     <div class="container-fluid">
         <div class="row">
