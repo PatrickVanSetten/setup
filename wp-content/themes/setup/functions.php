@@ -329,7 +329,7 @@ function rd_duplicate_post_link( $actions, $post ) {
 add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);
 
 /*
- * Add a portfolio custom post type.
+ * Spelers custom post type
  */
 add_action('init', 'create_redvine_spelers');
 function create_redvine_spelers() 
@@ -371,26 +371,16 @@ register_taxonomy( "spelers-teams",
 							'with_front' => false)
 		 ) 
 );
-register_taxonomy( "spelers-coaches", 
-	array( 	"spelers" ), 
-	array( 	"hierarchical" => true,
-			"labels" => array('name'=>"Coaches",'add_new_item'=>"Voeg coach toe"), 
-			"singular_label" => __( "Field" ), 
-			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
-							'with_front' => false)
-		 ) 
-);
-
 add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
 function tsm_filter_post_type_by_taxonomy() {
 	global $typenow;
 	$post_type = 'spelers'; // change to your post type
-	$taxonomy  = 'projecten-categories'; // change to your taxonomy
+	$taxonomy  = 'spelers-teams'; // change to your taxonomy
 	if ($typenow == spelers) {
 		$selected      = isset($_GET[$taxonomy]) ? $_GET[$taxonomy] : '';
 		$info_taxonomy = get_taxonomy($taxonomy);
 		wp_dropdown_categories(array(
-			'show_option_all' => __("Show All {$info_taxonomy->label}"),
+			'show_option_all' => __("Bekijk alle {$info_taxonomy->label}"),
 			'taxonomy'        => $taxonomy,
 			'name'            => $taxonomy,
 			'orderby'         => 'name',
@@ -400,6 +390,50 @@ function tsm_filter_post_type_by_taxonomy() {
 		));
 	};
 }
+
+/*
+ * Coaches custom post type
+ */
+add_action('init', 'create_redvine_coaches');
+function create_redvine_coaches() 
+{
+  $labels = array(
+    'name' => _x('Coaches', 'coaches'),
+    'singular_name' => _x('Coaches', 'coaches'),
+    'add_new' => _x('Nieuwe coach', 'coaches'),
+    'add_new_item' => __('Nieuwe coach'),
+    'edit_item' => __('Bewerk coach'),
+    'new_item' => __('Nieuwe coach'),
+    'view_item' => __('Bekijk coaches'),
+    'search_items' => __('Zoek naar een coach'),
+    'not_found' =>  __('Geen coaches gevonden'),
+    'not_found_in_trash' => __('Geen coaches in de prullenbak gevonden'), 
+    'parent_item_colon' => ''
+  );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'show_ui' => true, 
+    'query_var' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'menu_icon' => 'dashicons-businessman',
+    'hierarchical' => false,
+    'menu_position' => 20,
+    'supports' => array('title','thumbnail','revisions', 'editor')
+  ); 
+  register_post_type('coaches',$args);
+}
+
+register_taxonomy( "coaches-teams", 
+	array( 	"coaches" ), 
+	array( 	"hierarchical" => true,
+			"labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"), 
+			"singular_label" => __( "Field" ), 
+			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
+							'with_front' => false)
+		 ) 
+);
 
 /**
  * Display navigation to next/previous post when applicable.

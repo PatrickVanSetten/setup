@@ -59,7 +59,7 @@ get_header(); ?>
                     <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/minister.jpg')"></div>
                     <div class="featured-content">
                         <h3>Mini-ster van de week</h3>
-                        <span>subtitle</span>
+                        <span><?php echo the_field('mini_ster_van_de_week'); ?></span>
                     </div>
                 </div>
             </div>
