@@ -14,14 +14,21 @@ function offsetcontainer(){
     jQuery('.adressbarright').css('width',ruimte);
     jQuery('.newswrapperbg').css('width',ruimte);
     jQuery('.photowrapperbg').css('width',ruimte);
+    jQuery('.aboutwrapperbg').css('width',ruimte);
 }offsetcontainer();
 
+function calcheight(){
+    var photoheight = jQuery('#photos').height();
+    jQuery('.photowrapper-offset').css('border-top-width',photoheight);
+
+    var aboutheight = jQuery('#about').height();
+    jQuery('.aboutwrapper-offset').css('border-top-width',aboutheight);
+}calcheight();
+  
 jQuery(window).resize(function(){
     offsetcontainer();
+    calcheight();
 })
-
-var height = jQuery('#photos').height();
-jQuery('.photowrapper-offset').css('border-top-width',height);
 
 (jQuery)
 

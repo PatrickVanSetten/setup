@@ -180,4 +180,22 @@ get_header(); ?>
     </div>
 </section>
 
+<section id="about" class="bg-grey">
+    <div class="aboutwrapperbg"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="about-wrapper bg-white">
+                    <h2>Foto's volleybaltoernooi de Bree</h2>
+                    <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
+                    <a href="#" class="button">Lees dit bericht</a>
+                    <span class="aboutwrapper-offset"></span>
+                </div>
+            </div>
+            <div class="aboutimage" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/featured-event.jpg')">
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer();?>
