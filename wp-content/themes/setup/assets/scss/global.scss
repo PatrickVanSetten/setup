@@ -110,7 +110,7 @@ p{
     z-index:1;
 }
 section{
-    padding:4rem 0;
+    padding:8rem 0;
     display:table;
     width:100%;
 }
@@ -325,8 +325,8 @@ section{
         position: absolute;
         top: 0;
         left: 0;
-        height:calc(100% - 8rem);
-        margin-top:4rem;
+        height:calc(100% - 16rem);
+        margin-top:8rem;
         background-color:#fff;
         z-index:999;
         padding:4rem 0;
