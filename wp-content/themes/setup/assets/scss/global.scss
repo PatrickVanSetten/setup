@@ -483,6 +483,27 @@ section{
 }
 
 
+/* Teams overview */
+.teams-wrapper{
+    position:relative;
+    margin-bottom:4rem;
+    .teams-image{
+        padding-left:3rem;
+        min-height:20rem;
+        background-size:cover;
+        background-position:center center;
+    }
+    .teams-content{
+        padding:3rem;
+        h3{
+            margin-top:0;
+            color:$title;
+            text-transform:uppercase;
+            font-weight:700;
+        }
+    }
+}
+
 /* Footer */
 footer{
     background-color:$blue;
