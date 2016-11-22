@@ -133,8 +133,8 @@ section{
     }
     li {
         list-style: none;
-        display: inline-block;
-        margin-left: 2rem;
+        display:inline-block;
+        margin-left:0.5rem;
     }
     a {
         color:#fff;
@@ -298,7 +298,7 @@ section{
                 width: 100%;
                 border-bottom: 1px #254181 solid;
                 padding: 2.5rem 0;
-                &:nth-child(5) {
+                &:last-child {
                     border: none;
                 }
                 .date {

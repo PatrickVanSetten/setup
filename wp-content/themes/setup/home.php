@@ -59,34 +59,69 @@ get_header(); ?>
                     <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/minister.jpg')"></div>
                     <div class="featured-content">
                         <h3>Mini-ster van de week</h3>
-                        <span><?php echo the_field('mini_ster_van_de_week'); ?></span>
+                       <?php
+
+                        $post_object = get_field('mini_ster_van_de_week');
+
+                        if( $post_object ):
+
+                            // override $post
+                            $post = $post_object;
+                            setup_postdata( $post );
+
+                            ?>
+                            <span><?php get_field('mini_ster_van_de_week'); ?></span>
+                            <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 birthdays">
                 <div class="featured-wrapper">
                     <div class="featured-content">
                         <h3>Onze jarigen</h3>
-                        <div class="person">
-                            <span class="date">24 maart</span>
-                            <span class="name">Mika van Setta</span>
-                            <span class="seperator"></span>
-                        </div>
-                        <div class="person">
-                            <span class="date">25 maart</span>
-                            <span class="name">Ron Brandsteder</span>
-                            <span class="seperator"></span>
-                        </div>
-                        <div class="person">
-                            <span class="date">04 april</span>
-                            <span class="name">Andre Pronk</span>
-                            <span class="seperator"></span>
-                        </div>
-                        <div class="person">
-                            <span class="date">14 april</span>
-                            <span class="name">Jan Joost van Gangelen</span>
-                            <span class="seperator"></span>
-                        </div>
+
+                        <?php
+                             $today = date('Ymd');
+                             $args = array(
+                                    'post_type' => 'spelers',
+                                    'order' => 'DESC',
+                                    'meta_query' => array(
+                                        array(
+                                            'key'		=> 'start_date',
+                                            'compare'	=> '>=',
+                                            'value'		=> $today,
+                                        ),
+                                         array(
+                                            'key'		=> 'end_date',
+                                            'compare'	=> '<=',
+                                            'value'		=> $today,
+                                        )
+                                    ),
+                                    'posts_per_page' => 5
+                                );
+
+                                $myposts = get_posts($args);
+                                foreach ($myposts as $post) : setup_postdata($post);
+                                ?>
+
+                                <?php
+                                    $term_list = wp_get_post_terms($post->ID, 'projecten-categories', array("fields" => "all"));
+                                ?>
+                        
+                                <div class="person">
+                                    <span class="date"><?php the_field('geboortedatum'); ?></span>
+                                    <span class="name"><?php the_title(); ?></span>
+                                    <span class="seperator"></span>
+                                </div>
+
+                                <?php
+                                endforeach;
+                                echo $return;
+                                $return = '';
+                                wp_reset_postdata();
+                                ?>
                     </div>
                 </div>
             </div>
