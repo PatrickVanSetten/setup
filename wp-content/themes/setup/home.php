@@ -16,7 +16,7 @@ get_header(); ?>
         ?>
         <div class="carousel-cell">
             <div class="container-fluid">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent fadeable">
                     <div class="newswrapper">
                         <h2><?php the_title();?></h2>
                         <span class="date"><?php echo get_the_date();?></span>
@@ -70,7 +70,7 @@ get_header(); ?>
                             setup_postdata( $post );
 
                             ?>
-                            <span><?php get_field('mini_ster_van_de_week'); ?></span>
+                            <span><?php the_title(''); ?></span>
                             <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                         <?php endif; ?>
                     </div>
@@ -87,7 +87,6 @@ get_header(); ?>
                              $args = array(
                                     'post_type' => 'spelers',
                                     'order' => 'DESC',
-                                    
                                     'posts_per_page' => 5
                                 );
                                
@@ -95,9 +94,7 @@ get_header(); ?>
                                 foreach ($myposts as $post) : setup_postdata($post);
                                 ?>
 
-                                <?php
-                                    $term_list = wp_get_post_terms($post->ID, 'projecten-categories', array("fields" => "all"));
-                                ?>
+                                
                         
                                 <div class="person">
                                     <span class="date"><?php the_field('geboortedatum'); ?></span>
