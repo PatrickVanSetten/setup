@@ -83,25 +83,14 @@ get_header(); ?>
                         <h3>Onze jarigen</h3>
 
                         <?php
-                             $today = date('Ymd');
+                             
                              $args = array(
                                     'post_type' => 'spelers',
                                     'order' => 'DESC',
-                                    'meta_query' => array(
-                                        array(
-                                            'key'		=> 'start_date',
-                                            'compare'	=> '>=',
-                                            'value'		=> $today,
-                                        ),
-                                         array(
-                                            'key'		=> 'end_date',
-                                            'compare'	=> '<=',
-                                            'value'		=> $today,
-                                        )
-                                    ),
+                                    
                                     'posts_per_page' => 5
                                 );
-
+                               
                                 $myposts = get_posts($args);
                                 foreach ($myposts as $post) : setup_postdata($post);
                                 ?>
