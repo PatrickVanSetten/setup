@@ -13,7 +13,7 @@ get_header(); ?>
                     <div class="teams-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/dames.jpg')"></div>
                     <div class="teams-content">
                         <select>
-                            <option>Dames 1</option>
+                            <option selected="selected">Dames 1</option>
                             <option value="team">Team</option>
                             <option value="stand">Stand</option>
                             <option value="programma">Programma</option>

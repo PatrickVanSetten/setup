@@ -14,8 +14,11 @@
 })
 
 jQuery(document).ready(function($){
-     $("select").select2();
-}); 
+     $("select").select2({
+         minimumResultsForSearch: Infinity
+     });
+});
+
 
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
