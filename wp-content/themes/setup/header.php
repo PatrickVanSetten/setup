@@ -10,7 +10,7 @@
 </head>
 <body <?php body_class( $class ); ?>>
     
-<section id="navbar" class="pan hidden-sm hidden-xs">
+<section id="navbar" class="pan hidden-sm hidden-xs navbar-fixed-top">
     <div class="adressbarright"></div>
     <div class="container-fluid">
         <div class="row">
@@ -28,5 +28,17 @@
 </section>    
 
 <section id="crumble-path" class="pan">
-    
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                 <?php
+                    if ( function_exists('yoast_breadcrumb') ) {
+                    yoast_breadcrumb('
+                    <p id="breadcrumbs">','</p>
+                    ');
+                    }
+                ?>
+            </div>
+        </div>
+    </div>
 </section>
