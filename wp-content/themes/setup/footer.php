@@ -41,6 +41,6 @@
 
 </body>
 </html>
-<script>
-      window.sr = new scrollReveal();
+<script>    
+    window.sr = new scrollReveal();    
 </script>

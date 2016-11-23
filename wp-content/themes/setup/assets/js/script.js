@@ -1,12 +1,3 @@
-(function($){
-    $("#hamburger").click(function(){
-        $("body").toggleClass("nav-open");
-        $("html").toggleClass("not-scrollable");
-    });
-    $('.tabs-nav-list').eq(0).addClass('active');
-    $('.tab-pane').removeClass('active');
-    $('.tab-pane').eq(0).addClass('active');
-})
 
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
@@ -24,11 +15,27 @@ function calcheight(){
     var aboutheight = jQuery('#about').height();
     jQuery('.aboutwrapper-offset').css('border-top-width',aboutheight);
 }calcheight();
-  
-jQuery(window).resize(function(){
-    offsetcontainer();
-    calcheight();
-})
 
-(jQuery)
+(function($){
+    $("#hamburger").click(function(){
+        $("body").toggleClass("nav-open");
+        $("html").toggleClass("not-scrollable");
+    });
+    $('.tabs-nav-list').eq(0).addClass('active');
+    $('.tab-pane').removeClass('active');
+    $('.tab-pane').eq(0).addClass('active');
+
+    $(window).resize(function(){
+        offsetcontainer();
+        calcheight();
+    })
+})(jQuery)
+
+jQuery(document).ready(function($){
+     $("select").select2();
+}); 
+
+
+
+
 
