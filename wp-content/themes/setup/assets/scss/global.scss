@@ -1,7 +1,7 @@
 @import 'bootstrap';
 @import 'browser_compatible';
 @import 'flickity';
-@import 'select2';
+@import 'select2'; 
 @import 'nav';   
 @import 'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700';
 
@@ -95,7 +95,7 @@ p{
     text-decoration:none;
     margin-top: 2rem;
     &:hover {
-        color: #fff;
+        color: #fff; 
         background-color: $darkblue;
     }
     &:focus{
@@ -123,6 +123,28 @@ section{
     padding-right:5%;
     width:100%;
     max-width:1600px;
+}
+
+/* Select2 */
+.select2-container {
+    width:100%!important; 
+}
+.select2-container--default .select2-selection--single {
+    border-radius:0;
+    border-color:#D6D6D6;
+    height:5rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: $blue transparent transparent;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 0.9rem;
+    right: 2rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: $text;
+    line-height: 4.4rem;
+    padding-left: 2rem;
 }
 
 /* Nav */

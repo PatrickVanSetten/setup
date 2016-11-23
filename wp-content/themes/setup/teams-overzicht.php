@@ -12,8 +12,8 @@ get_header(); ?>
                 <div class="teams-wrapper bg-white">
                     <div class="teams-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/dames.jpg')"></div>
                     <div class="teams-content">
-                        <h3>Dames 1</h3>
                         <select>
+                            <option>Dames 1</option>
                             <option value="team">Team</option>
                             <option value="stand">Stand</option>
                             <option value="programma">Programma</option>

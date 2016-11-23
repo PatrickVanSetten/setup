@@ -1,3 +1,21 @@
+(function($){
+    $("#hamburger").click(function(){
+        $("body").toggleClass("nav-open");
+        $("html").toggleClass("not-scrollable");
+    });
+    $('.tabs-nav-list').eq(0).addClass('active');
+    $('.tab-pane').removeClass('active');
+    $('.tab-pane').eq(0).addClass('active');
+
+    $(window).resize(function(){
+        offsetcontainer();
+        calcheight();
+    })
+})
+
+jQuery(document).ready(function($){
+     $("select").select2();
+}); 
 
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
@@ -16,26 +34,9 @@ function calcheight(){
     jQuery('.aboutwrapper-offset').css('border-top-width',aboutheight);
 }calcheight();
 
-(function($){
-    $("#hamburger").click(function(){
-        $("body").toggleClass("nav-open");
-        $("html").toggleClass("not-scrollable");
-    });
-    $('.tabs-nav-list').eq(0).addClass('active');
-    $('.tab-pane').removeClass('active');
-    $('.tab-pane').eq(0).addClass('active');
-
-    $(window).resize(function(){
-        offsetcontainer();
-        calcheight();
-    })
-})(jQuery)
-
-jQuery(document).ready(function($){
-     $("select").select2();
-}); 
 
 
+(jQuery)
 
 
 
