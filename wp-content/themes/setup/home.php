@@ -60,8 +60,14 @@ get_header(); ?>
                     <div class="featured-content">
                         <h3>Mini-ster van de week</h3>
                        <?php
+    
+    
+    
+    
+    
 
                         $post_object = get_field('mini_ster_van_de_week');
+                         var_dump($post_object);
 
                         if( $post_object ):
 
@@ -70,7 +76,7 @@ get_header(); ?>
                             setup_postdata( $post );
 
                             ?>
-                            <span><?php the_title(''); ?></span>
+                            <span><?php the_title(); ?></span>
                             <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                         <?php endif; ?>
                     </div>
@@ -81,32 +87,51 @@ get_header(); ?>
                 <div class="featured-wrapper">
                     <div class="featured-content">
                         <h3>Onze jarigen</h3>
-
                         <?php
-                             
-                             $args = array(
-                                    'post_type' => 'spelers',
-                                    'order' => 'DESC',
-                                    'posts_per_page' => 5
-                                );
-                               
-                                $myposts = get_posts($args);
-                                foreach ($myposts as $post) : setup_postdata($post);
-                                ?>
-
-                                
+                            
                         
-                                <div class="person">
-                                    <span class="date"><?php the_field('geboortedatum'); ?></span>
-                                    <span class="name"><?php the_title(); ?></span>
-                                    <span class="seperator"></span>
-                                </div>
-
+                        global $wpdb;
+                        $sql = "SELECT 
+                                    P.ID,
+                                    P.post_title,
+                                    PM.meta_value,
+                                    (
+                                        (DAY(NOW()) - DAY(PM.meta_value))
+                                    ) as d,
+                                    (
+                                        ((MONTH(PM.meta_value) - MONTH(NOW()) + 12 ) % 12 )
+                                    ) as m
+                                FROM
+                                    ".$wpdb->prefix."posts as P,
+                                    ".$wpdb->prefix."postmeta as PM
+                                WHERE
+                                    P.post_type = 'spelers' AND
+                                    PM.post_id = P.ID AND
+                                    PM.meta_key = 'geboortedatum'
+                                ORDER BY m ASC, d DESC
+                                ";
+                        $results = $wpdb->get_results( $sql, ARRAY_A );
+                        //var_dump($sql);
+                        //var_dump($results);
+                        
+                        $limit = 5;
+                        foreach( $results as $result ) {
+                            if ( $result['m'] == 0 && $result['d'] > 0 ) {
+                                continue;
+                            }
+                                ?>
+                                    <div class="person">
+                                        <span class="date"><?=date('d/m/Y',strtotime( $result['meta_value']))?></span>
+                                        <span class="name"><?=$result['post_title']?></span>
+                                        <span class="seperator"></span>
+                                    </div>
                                 <?php
-                                endforeach;
-                                echo $return;
-                                $return = '';
-                                wp_reset_postdata();
+                                
+                            $limit--;
+                            if ( $limit == 0 ) {
+                                break;
+                            }
+                        }
                                 ?>
                     </div>
                 </div>
