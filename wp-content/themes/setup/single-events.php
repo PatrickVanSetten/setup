@@ -11,7 +11,8 @@ get_header(); ?>
                 <div class="wrapper bg-white">
                     <h1><?php the_title(); ?></h1>
                     <span class="date"><?php the_field('datum');?></span>
-                    <p><?php the_field('beschrijving');?></p>
+                    <span class="place">in <?php the_field('plaats');?></span>
+                    <p><?php the_content(); ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bg-grey pan">

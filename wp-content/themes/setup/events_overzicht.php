@@ -41,7 +41,7 @@ get_header(); ?>
                         </div>
                         <div class="event-content">
                             <h3><?php the_title(); ?></h3>
-                            <p><?php the_field('beschrijving'); ?></p>
+                            <p><?php the_excerpt(); ?></p>
                         </div>
                     </div>
                 </div>
