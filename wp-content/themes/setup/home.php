@@ -205,7 +205,8 @@ get_header(); ?>
                         <a href="<?php the_permalink(); ?>" class="coverlink"></a>
                         <div class="event-image" style="background-image: url(<?php echo $image[url]; ?>)" data-filter-data='<?=json_encode( $filter )?>'>
                             <div class="date-wrapper">
-                                <div class="date"><?php the_field('datum'); ?></div>
+                                <div class="date"><?php $date = new DateTime(get_field('datum')); echo $date->format('d'); ?></div>
+                                <div class="month"><?php $date = new DateTime(get_field('datum')); echo $date->format('M'); ?></div>  
                             </div>
                         </div>
                         <div class="event-content">
