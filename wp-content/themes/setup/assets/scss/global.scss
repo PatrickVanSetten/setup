@@ -125,6 +125,18 @@ section{
     max-width:1600px;
 }
 
+/* Breadcrumbs */
+#breadcrumbs {
+    color:#fff;
+    padding-top:1rem;
+    font-size: 1.4rem;
+    font-weight:500;
+    a {
+        color: #fff;
+        @include opacity(0.25);
+    }
+}
+
 /* Select2 */
 .select2-container {
     width:100%!important; 
