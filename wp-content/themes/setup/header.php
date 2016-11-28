@@ -11,7 +11,7 @@
 <body <?php body_class( $class ); ?>>
     
 <section id="navbar" class="pan hidden-sm hidden-xs navbar-fixed-top">
-    <div class="adressbarright"></div>
+    <div class="adressbarright heightcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8 col-md-6 col-sm-6 col-xs-4 brand">
@@ -42,3 +42,17 @@
         </div>
     </div>
 </section>
+
+    
+<?php if ( is_single() ) { ?>
+    
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/laura-dijkema-groot.jpg')"></div>
+        </div>
+    </div>
+</header>
+    
+<?php } ?>
+    

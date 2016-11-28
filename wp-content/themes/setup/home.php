@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <section id="news" class="pan">
-    <div class="newswrapperbg"></div>
+    <div class="newswrapperbg heightcalc"></div>
     <div class="carousel" data-flickity='{ "lazyLoad": true, "pageDots": false, "wrapAround": true }'> 
         
         <?php 
@@ -16,7 +16,7 @@ get_header(); ?>
         ?>
         <div class="carousel-cell">
             <div class="container-fluid">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent fadeable">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 newscontent fadeable pan">
                     <div class="newswrapper">
                         <h2><?php the_title();?></h2>
                         <span class="date"><?php echo get_the_date();?></span>
@@ -159,7 +159,7 @@ get_header(); ?>
 </section>
 
 <section id="photos" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/featured-event.jpg')">
-    <div class="photowrapperbg"></div>
+    <div class="photowrapperbg heightcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -227,7 +227,7 @@ get_header(); ?>
 </section>
 
 <section id="about" class="bg-grey pan">
-    <div class="aboutwrapperbg"></div>
+    <div class="aboutwrapperbg heightcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">

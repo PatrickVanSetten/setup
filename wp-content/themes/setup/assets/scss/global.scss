@@ -70,6 +70,11 @@ a:focus,
     background-color:white;
 }
 h1 {
+    font-weight: 700;
+    font-size:3.6rem;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
     
 }
 h2 {
@@ -124,6 +129,15 @@ section{
     width:100%;
     max-width:1600px;
 }
+header {
+    .image {
+        width: 100%;
+        height:40vh;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
 
 /* Breadcrumbs */
 #breadcrumbs {
@@ -578,6 +592,35 @@ section{
             text-transform:uppercase;
             font-weight:700;
         }
+    }
+}
+
+/* Event */
+#event {
+    position: relative;
+    p {
+        line-height: 3.4rem; 
+        margin-bottom: 3rem; 
+    }
+    .date, .place {
+        color:#B9B9B9;
+        display:inline-block;
+    }
+    .wrapper {
+        padding: 5rem 15rem 5rem 0; 
+    }
+    .sidebar {
+        background-color:$grey;
+        padding: 5rem;
+        height: 100vh;
+    }
+    .greybarright {
+        position:absolute;
+        right: 0;
+        top:0;
+        background-color:$grey;
+        height:calc(100% + 40vh);
+        margin-top:-40vh;
     }
 }
 

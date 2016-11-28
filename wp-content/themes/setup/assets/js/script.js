@@ -23,10 +23,7 @@ jQuery(document).ready(function($){
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
         ruimte = ruimte / 2;
-    jQuery('.adressbarright').css('width',ruimte);
-    jQuery('.newswrapperbg').css('width',ruimte);
-    jQuery('.photowrapperbg').css('width',ruimte);
-    jQuery('.aboutwrapperbg').css('width',ruimte);
+    jQuery('.heightcalc').css('width',ruimte);
 }offsetcontainer();
 
 function calcheight(){
