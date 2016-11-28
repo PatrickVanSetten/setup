@@ -329,6 +329,8 @@ function rd_duplicate_post_link( $actions, $post ) {
  
 add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);
 
+flush_rewrite_rules( false );
+
 /*
  * Spelers custom post type
  */
@@ -435,6 +437,73 @@ register_taxonomy( "coaches-teams",
 							'with_front' => false)
 		 ) 
 );
+
+
+/*
+ * Events custom post type
+ */
+add_action('init', 'create_redvine_events');
+function create_redvine_events() 
+{
+  $labels = array(
+    'name' => _x('Evenementen', 'events'),
+    'singular_name' => _x('Evenement', 'events'),
+    'add_new' => _x('Nieuw evenement', 'events'),
+    'add_new_item' => __('Nieuw evenement'),
+    'edit_item' => __('Bewerk evenement'),
+    'new_item' => __('Nieuw evenement'),
+    'view_item' => __('Bekijk evenement'),
+    'search_items' => __('Zoek naar een evenement'),
+    'not_found' =>  __('Geen evenementen gevonden'),
+    'not_found_in_trash' => __('Geen evenementen in de prullenbak gevonden'), 
+    'parent_item_colon' => ''
+  );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'show_ui' => true, 
+    'query_var' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'menu_icon' => 'dashicons-calendar-alt',
+    'hierarchical' => false,
+    'menu_position' => 20,
+    'supports' => array('title','thumbnail','revisions', 'editor')
+  ); 
+  register_post_type('events',$args);
+}
+
+register_taxonomy( "events-categories", 
+	array( 	"events" ), 
+	array( 	"hierarchical" => true,
+			"labels" => array('name'=>"Categorie",'add_new_item'=>"Voeg categorie toe"), 
+			"singular_label" => __( "Field" ), 
+			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
+							'with_front' => false)
+		 ) 
+);
+
+/* add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
+function tsm_filter_post_type_by_taxonomy() {
+	global $typenow;
+	$post_type = 'events'; // change to your post type
+	$taxonomy  = 'events-categories'; // change to your taxonomy
+	if ($typenow ==  $post_type) {
+		$selected      = isset($_GET[$taxonomy]) ? $_GET[$taxonomy] : '';
+		$info_taxonomy = get_taxonomy($taxonomy);
+		wp_dropdown_categories(array(
+			'show_option_all' => __("Bekijk alle {$info_taxonomy->label}"),
+			'taxonomy'        => $taxonomy,
+			'name'            => $taxonomy,
+			'orderby'         => 'name',
+			'selected'        => $selected,
+			'show_count'      => true,
+			'hide_empty'      => true,
+		));
+	};
+} */
+
+
 
 /**
  * Display navigation to next/previous post when applicable.
