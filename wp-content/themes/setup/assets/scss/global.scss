@@ -108,6 +108,9 @@ p{
         color:white;
     }
 }
+td,th {
+    padding: 1rem;
+}
 .coverlink{
     position: absolute;
     left: 0;
@@ -639,14 +642,29 @@ header {
 
 /* Team pagina */
 #team {
+    position: relative;
+    .greybarright {
+        position:absolute;
+        right: 0;
+        top:0;
+        background-color:$grey;
+        height:calc(100% + 40vh);
+        margin-top:-40vh;
+    }
     .wrapper {
         padding: 5rem 5rem 5rem 15px;
+        h1, h2 {
+            margin-bottom: 2rem;
+        }
+        tr {
+            padding: 1rem;
+        }
         .info {
             padding: 1.5rem;
             font-size: 1.2rem;
             .name {
                 display:inline-block;
-                width: 40%;
+                width: 60%;
             }
             .date {
                 display:inline-block;
@@ -659,6 +677,7 @@ header {
             .position {
                 display:inline-block;
                 width: 10%;
+                text-align: right;
             }
         }
         .player-list {
@@ -667,7 +686,7 @@ header {
             border-bottom: 1px #eee solid;
             .name {
                 display:inline-block;
-                width: 40%;
+                width: 60%;
             }
             .date {
                 display:inline-block;
@@ -680,13 +699,14 @@ header {
             .position {
                 display:inline-block;
                 width: 10%;
+                text-align: right;
             }
         }
     }
     .sidebar {
         background-color:$grey;
         padding: 5rem;
-        height: 100vh;
+        height: 100%;
     }
 }
 

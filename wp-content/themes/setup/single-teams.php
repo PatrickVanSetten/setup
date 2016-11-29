@@ -50,7 +50,7 @@ get_header(); ?>
                             <div class="info">
                                 <div class="player">
                                     <span class="name">Naam</span>
-                                    <span class="date">Geboortedatum</span>
+                                    <!-- <span class="date">Geboortedatum</span> -->
                                     <span class="number">Rugnummer</span>
                                     <span class="position">Positie</span>
                                 </div>
@@ -76,7 +76,7 @@ get_header(); ?>
                             <div class="player-list">
                                 <div class="player">
                                     <span class="name"><?php the_title();?></span>
-                                    <span class="date"><?php the_field('geboortedatum'); ?></span>
+                                    <!-- <span class="date"><?php the_field('geboortedatum'); ?></span> -->
                                     <span class="number"><?php the_field('rugnummer'); ?></span>
                                     <span class="position"><?php the_field('positie'); ?></span>
                                 </div>
@@ -121,6 +121,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        <div class="greybarright widthcalc"></div>
     </div>
 </section>
 

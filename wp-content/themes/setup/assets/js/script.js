@@ -32,6 +32,10 @@ function calcheight(){
 
     var aboutheight = jQuery('#about').height();
     jQuery('.aboutwrapper-offset').css('border-top-width',aboutheight);
+    
+    var sidebarheight = jQuery('.wrapper').height()+150;
+    jQuery('.sidebar').css('height',sidebarheight);
+    
 }calcheight();
 
 
