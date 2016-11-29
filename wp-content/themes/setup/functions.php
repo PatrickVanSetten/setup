@@ -361,7 +361,7 @@ function create_redvine_spelers()
     'menu_icon' => 'dashicons-groups',
     'hierarchical' => false,
     'menu_position' => 20,
-    'taxonomies' => array( 'spelers','spelers-teams','post_tag' ),
+    'taxonomies' => array( 'spelers','spelers-teams','teams' ),
     'supports' => array('title','thumbnail','revisions', 'editor')
   ); 
   register_post_type('spelers',$args);
@@ -382,7 +382,8 @@ function create_taxonomies() {
 }
 add_action('init', 'create_taxonomies');
 
-/* add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
+/* OLD
+add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
 function tsm_filter_post_type_by_taxonomy() {
 	global $typenow;
 	$post_type = 'spelers'; // change to your post type
@@ -400,7 +401,8 @@ function tsm_filter_post_type_by_taxonomy() {
 			'hide_empty'      => true,
 		));
 	};
-} */
+} 
+*/
 
 
 

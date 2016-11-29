@@ -11,7 +11,7 @@
 <body <?php body_class( $class ); ?>>
     
 <section id="navbar" class="pan hidden-sm hidden-xs navbar-fixed-top">
-    <div class="adressbarright heightcalc"></div>
+    <div class="adressbarright widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-md-4 col-sm-6 col-xs-4 brand">
@@ -44,7 +44,7 @@
 </section>
 
     
-<?php if ( is_single() ) { ?>
+<?php if ( !is_front_page() ) { ?>
     
 <header>
     <div class="container-fluid">

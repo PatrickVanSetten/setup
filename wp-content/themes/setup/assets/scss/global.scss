@@ -620,12 +620,12 @@ header {
         display:inline-block;
     }
     .wrapper {
-        padding: 5rem 15rem 5rem 0; 
+        padding: 5rem 15rem 5rem 15px; 
     }
     .sidebar {
         background-color:$grey;
         padding: 5rem;
-        height: 100vh;
+        height: 100%;
     }
     .greybarright {
         position:absolute;
@@ -634,6 +634,18 @@ header {
         background-color:$grey;
         height:calc(100% + 40vh);
         margin-top:-40vh;
+    }
+}
+
+/* Team pagina */
+#team {
+    .wrapper {
+        padding: 5rem 15rem 5rem 15px; 
+    }
+    .sidebar {
+        background-color:$grey;
+        padding: 5rem;
+        height: 100vh;
     }
 }
 
