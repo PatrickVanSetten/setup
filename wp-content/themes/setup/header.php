@@ -44,15 +44,23 @@
 </section>
 
     
-<?php if ( !is_front_page() ) { ?>
-    
+<?php if ( is_page_template( 'single-teams.php' ) ) { ?>
+        
+<?php 
+    $thumb1 = get_field('teamfoto'); 
+    $image1 = vt_resize( $thumb1, '', 1600, 1200, true );
+?>
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/laura-dijkema-groot.jpg')"></div>
+            <div class="col-xs-12">
+                <div class="image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
+            </div>
         </div>
     </div>
 </header>
+
+<?php } else { ?>
     
-<?php } ?>
+<?php } ?>  
     

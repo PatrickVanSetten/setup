@@ -111,6 +111,7 @@ get_header(); ?>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bg-grey pan">
                 <div class="sidebar">
                     <nav class="nav-sidebar">
+                        <h3>Snel navigeren</h3>
                         <ul class="nav tabs">
                             <li class="active"><a href="#tab1" data-toggle="tab">Team informatie</a></li>
                             <li class=""><a href="#tab2" data-toggle="tab">Stand</a></li>
