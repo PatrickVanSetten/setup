@@ -640,7 +640,48 @@ header {
 /* Team pagina */
 #team {
     .wrapper {
-        padding: 5rem 15rem 5rem 15px; 
+        padding: 5rem 5rem 5rem 15px;
+        .info {
+            padding: 1.5rem;
+            font-size: 1.2rem;
+            .name {
+                display:inline-block;
+                width: 40%;
+            }
+            .date {
+                display:inline-block;
+                width: 25%; 
+            }
+            .number {
+                display:inline-block;
+                width: 20%;
+            }
+            .position {
+                display:inline-block;
+                width: 10%;
+            }
+        }
+        .player-list {
+            width: 100%;
+            padding: 1.5rem;
+            border-bottom: 1px #eee solid;
+            .name {
+                display:inline-block;
+                width: 40%;
+            }
+            .date {
+                display:inline-block;
+                width: 25%; 
+            }
+            .number {
+                display:inline-block;
+                width: 20%;
+            }
+            .position {
+                display:inline-block;
+                width: 10%;
+            }
+        }
     }
     .sidebar {
         background-color:$grey;

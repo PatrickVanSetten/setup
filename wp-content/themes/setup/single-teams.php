@@ -15,7 +15,46 @@ get_header(); ?>
                             <?php while ( have_posts() ) : the_post(); ?>
                             <?php the_content(); ?>
                             <?php endwhile; // end of the loop. ?>
+                            
+                            <!-- Loop om trainer op te halen -->
+                            <?php
 
+                                $post_object = get_field('kies_coach');
+
+                                if( $post_object ): 
+
+                                    // override $post
+                                    $post = $post_object;
+                                    setup_postdata( $post ); 
+
+                                    ?>
+                                    <div>
+                                        <p>Coach: <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+                                    </div>
+                                    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                            <?php endif; ?>
+                            
+                            <?php 
+                            if( have_rows('trainingstijden') ): ?>
+                                <?php 
+                                while( have_rows('trainingstijden') ): the_row(); ?>
+
+                                    <p><?php the_sub_field('dag');?> <?php the_sub_field('tijd');?></p>
+
+                                <?php endwhile;?>
+                            <?php endif;?>
+
+                            
+                            <!-- Loop om spelers op te halen -->
+                        
+                            <div class="info">
+                                <div class="player">
+                                    <span class="name">Naam</span>
+                                    <span class="date">Geboortedatum</span>
+                                    <span class="number">Rugnummer</span>
+                                    <span class="position">Positie</span>
+                                </div>
+                            </div>
 
                             <?php
                                 $sectorName = get_field('kies_team');
@@ -34,50 +73,34 @@ get_header(); ?>
                             foreach ($myposts as $post) : setup_postdata($post);
                             //var_dump($post);
                             ?>
-                            <div class="col-md-4 col-sm-64col-xs-12">
-                                <div class="referentie_item">
-                                    <div class="content">
-                                        <h3><?php the_title();?></h3>
-                                        <p><?php the_field('geboortedatum'); ?></p>
-                                        <p><?php the_field('rugnummer'); ?></p>
-                                        <p><?php the_field('positie'); ?></p>
-                                    </div>
+                            <div class="player-list">
+                                <div class="player">
+                                    <span class="name"><?php the_title();?></span>
+                                    <span class="date"><?php the_field('geboortedatum'); ?></span>
+                                    <span class="number"><?php the_field('rugnummer'); ?></span>
+                                    <span class="position"><?php the_field('positie'); ?></span>
                                 </div>
                             </div>
+                            
                             <?php
                                 endforeach;
                                 echo $return;
                                 $return = '';
                                 wp_reset_postdata();
                             ?>
-                            <div class="row">
-                                <?php
-
-                                    $post_object = get_field('kies_coach');
-
-                                    if( $post_object ): 
-
-                                        // override $post
-                                        $post = $post_object;
-                                        setup_postdata( $post ); 
-
-                                        ?>
-                                        <div>
-                                            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                        </div>
-                                        <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-                                <?php endif; ?>
-                            </div>
                         </div>
                         <div class="tab-pane" id="tab2">
+                            <h2>Stand</h2>
                             <?php $shortcode = get_post_meta($post->ID,'stand',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
                         <div class="tab-pane" id="tab3">
+                            <h2>Uitslagen</h2>
                             <?php $shortcode = get_post_meta($post->ID,'uitslagen',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
                         <div class="tab-pane" id="tab4">
+                            <h2>Programma</h2>
                             <?php $shortcode = get_post_meta($post->ID,'programma',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
