@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Teampagina
+ * Template Name: Spelerspagina
  */
 get_header(); ?>
 
@@ -34,12 +34,7 @@ get_header(); ?>
 
             <?php
                 $term_list = wp_get_post_terms($post->ID, 'spelers-teams', array("fields" => "all"));
-            ?>            
-                        
-            <p><?php the_title(); ?></p>
-            <p><?php the_field('geboortedatum'); ?></p>
-            <p><?php the_field('rugnummer'); ?></p>
-            <p><?php the_field('positie'); ?></p>
+            ?>
 
             <?php
                 endforeach;
@@ -47,6 +42,11 @@ get_header(); ?>
                 $return = '';
                 wp_reset_postdata();
             ?>
+            
+            <p><?php get_field('title'); ?></p>
+            <p><?php get_field('geboortedatum'); ?></p>
+            <p><?php get_field('rugnummer'); ?></p>
+            <p><?php get_field('positie'); ?></p>
             
         </div>
     </div>

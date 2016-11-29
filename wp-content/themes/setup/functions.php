@@ -360,6 +360,7 @@ function create_redvine_spelers()
     'menu_icon' => 'dashicons-groups',
     'hierarchical' => false,
     'menu_position' => 20,
+    'taxonomies' => array( 'teams','category','post_tag' ),
     'supports' => array('title','thumbnail','revisions', 'editor')
   ); 
   register_post_type('spelers',$args);
