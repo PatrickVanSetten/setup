@@ -351,31 +351,38 @@ function create_redvine_spelers()
     'parent_item_colon' => ''
   );
   $args = array(
-    'labels' => $labels,
+    'labels' => array('name' => 'Spelers','all_items' => 'Alle spelers'),
     'public' => true,
+    'has_archive' => true,
     'show_ui' => true, 
     'query_var' => true,
-    'rewrite' => true,
+    'rewrite' => array('slug' => 'spelers'),
     'capability_type' => 'post',
     'menu_icon' => 'dashicons-groups',
     'hierarchical' => false,
     'menu_position' => 20,
-    'taxonomies' => array( 'teams','category','post_tag' ),
+    'taxonomies' => array( 'spelers','spelers-teams','post_tag' ),
     'supports' => array('title','thumbnail','revisions', 'editor')
   ); 
   register_post_type('spelers',$args);
 }
 
-register_taxonomy( "spelers-teams", 
-	array( 	"spelers" ), 
-	array( 	"hierarchical" => true,
-			"labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"), 
-			"singular_label" => __( "Field" ), 
-			"rewrite" => array( 'slug' => 'fields', // This controls the base slug that will display before each term 
-							'with_front' => false)
-		 ) 
-);
-add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
+function create_taxonomies() {
+    register_taxonomy( "spelers-teams", 
+        array( 	"spelers" ), 
+        array( 	"hierarchical" => true,
+                "labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"),
+                "show_ui" => true,
+                "show_tagcloud" => false,
+                "singular_label" => __( "Field" ), 
+                "rewrite" => array( 'slug' => 'teams', // This controls the base slug that will display before each term 
+                                'with_front' => false)
+             ) 
+    );
+}
+add_action('init', 'create_taxonomies');
+
+/* add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
 function tsm_filter_post_type_by_taxonomy() {
 	global $typenow;
 	$post_type = 'spelers'; // change to your post type
@@ -393,7 +400,9 @@ function tsm_filter_post_type_by_taxonomy() {
 			'hide_empty'      => true,
 		));
 	};
-}
+} */
+
+
 
 /*
  * Coaches custom post type

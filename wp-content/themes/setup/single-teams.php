@@ -14,7 +14,7 @@ get_header(); ?>
             
             
             <?php
-             $args = array(
+                $args = array(
                     'post_type' => 'spelers',
                     'order' => 'DESC',
                     'posts_per_page' => -1
@@ -28,12 +28,10 @@ get_header(); ?>
                 $filter['geboortedatum'] = strtolower( get_field('geboortedatum') );
                 $filter['rugnummer'] = strtolower( get_field('rugnummer') );
                 $filter['positie'] = strtolower( get_field('positie') );
-                $thumb = get_post_thumbnail_id(); 
-                $image = vt_resize( $thumb, '', 800, 400, true );
             ?>
 
             <?php
-                $term_list = wp_get_post_terms($post->ID, 'spelers-teams', array("fields" => "all"));
+                $term_list = wp_get_post_terms($post->ID, 'spelers-teams', 'array("fields" => "all")');
             ?>            
                         
             <p><?php the_title(); ?></p>

@@ -197,7 +197,6 @@ get_header(); ?>
 
                 <?php
                     $term_list = wp_get_post_terms($post->ID, 'event-categories', array("fields" => "all"));
-
                 ?>
             
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
