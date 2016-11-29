@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
         ruimte = ruimte / 2;
-    jQuery('.heightcalc').css('width',ruimte);
+    jQuery('.widthcalc').css('width',ruimte);
 }offsetcontainer();
 
 function calcheight(){

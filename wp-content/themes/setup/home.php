@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <section id="news" class="pan">
-    <div class="newswrapperbg heightcalc"></div>
+    <div class="newswrapperbg widthcalc"></div>
     <div class="carousel" data-flickity='{ "lazyLoad": true, "pageDots": false, "wrapAround": true }'> 
         
         <?php 
@@ -159,7 +159,7 @@ get_header(); ?>
 </section>
 
 <section id="photos" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/featured-event.jpg')">
-    <div class="photowrapperbg heightcalc"></div>
+    <div class="photowrapperbg widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -226,7 +226,7 @@ get_header(); ?>
 </section>
 
 <section id="about" class="bg-grey pan">
-    <div class="aboutwrapperbg heightcalc"></div>
+    <div class="aboutwrapperbg widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">

@@ -27,7 +27,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <div class="greybarright heightcalc"></div>
+    <div class="greybarright widthcalc"></div>
 </section>
 
       
