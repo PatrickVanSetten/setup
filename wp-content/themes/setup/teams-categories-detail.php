@@ -27,20 +27,20 @@ get_header(); ?>
                     $thumb1 = get_field('categorie_afbeelding', $team->taxonomy.'_'.$team->term_id); 
                     $image1 = vt_resize( null, $thumb1, 420, 200, true );
                     ?>
-                       <div class="teams-wrapper bg-white">
-                                <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>#overzicht" class="coverlink"></a>
-                                <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
-                                <div class="teams-content">
-                                    <h3><?php echo $team->name; ?></h3>
-                                </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
+                        <div class="teams-wrapper bg-white">
+                            <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>#overzicht" class="coverlink"></a>
+                            <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
+                            <div class="teams-content">
+                                <h3><?php echo $team->name; ?></h3>
                             </div>
-                        </div> 
+                        </div>
+                    </div>  
                     <?php
                 }
                 
             }
-            exit;
-            if( $teams->have_posts() ) {
+            /* if( $teams->have_posts() ) {
               while( $teams->have_posts() ) {
                 $teams->the_post();
                 ?>
@@ -59,7 +59,7 @@ get_header(); ?>
                     </div> 
                 <?php
               }
-            }
+            } */
             ?>
         </div>
     </div>
