@@ -9,24 +9,6 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
           <?php
-            /*
-                $args = array(
-                    'post_type' => 'spelers',
-                    'tax_query' => array(
-                        array(
-                            'taxonomy' => 'spelers-teams',
-                            'field' => 'team',
-                            'terms' =>  'minis'
-                        )
-                    )
-            );
-
-
-            
-            $teams = new WP_Query($args);
-            */
-            
-            
             
             $teams = get_terms( array(
                 'taxonomy' => 'spelers-teams',
@@ -39,14 +21,15 @@ get_header(); ?>
                 $thumb1 = get_field('categorie_afbeelding', $team->taxonomy.'_'.$team->term_id); 
                 $image1 = vt_resize( null, $thumb1, 420, 200, true );
                 ?>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
                    <div class="teams-wrapper bg-white">
-                            <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>" class="coverlink"></a>
-                            <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
-                            <div class="teams-content">
-                                <h3><?php echo $team->name; ?></h3>
-                            </div>
+                        <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>" class="coverlink"></a>
+                        <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
+                        <div class="teams-content">
+                            <h3><?php echo $team->name; ?></h3>
                         </div>
-                    </div> 
+                    </div>
+                </div> 
                 <?php
                 
             }
