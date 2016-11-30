@@ -374,11 +374,13 @@ function create_taxonomies() {
                 "labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"),
                 "show_ui" => true,
                 "show_tagcloud" => false,
+                "has_archive" => true,
                 "singular_label" => __( "Field" ), 
                 "rewrite" => array( 'slug' => 'teams', // This controls the base slug that will display before each term 
                                 'with_front' => false)
              ) 
     );
+
 }
 add_action('init', 'create_taxonomies');
 
