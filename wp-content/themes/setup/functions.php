@@ -353,7 +353,7 @@ function create_redvine_spelers()
   $args = array(
     'labels' => array('name' => 'Spelers','all_items' => 'Alle spelers'),
     'public' => true,
-    'has_archive' => true,
+    'has_archive' => false,
     'show_ui' => true, 
     'query_var' => true,
     'rewrite' => array('slug' => 'spelers'),
@@ -374,13 +374,14 @@ function create_taxonomies() {
                 "labels" => array('name'=>"Teams",'add_new_item'=>"Voeg team toe"),
                 "show_ui" => true,
                 "show_tagcloud" => false,
-                "has_archive" => true,
+                "has_archive" => false,
                 "singular_label" => __( "Field" ), 
                 "rewrite" => array( 'slug' => 'teams', // This controls the base slug that will display before each term 
                                 'with_front' => false)
              ) 
     );
-
+    
+    
 }
 add_action('init', 'create_taxonomies');
 

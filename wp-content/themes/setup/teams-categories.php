@@ -33,27 +33,6 @@ get_header(); ?>
                 <?php
                 
             }
-            exit;
-            if( $teams->have_posts() ) {
-              while( $teams->have_posts() ) {
-                $teams->the_post();
-                ?>
-                    <?php 
-                        $thumb1 = get_field('categorie_afbeelding', $team->taxonomy.'_'.$team->term_id); 
-                        $image1 = vt_resize( $thumb1, '', 420, 200, true );
-                    ?>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="teams-wrapper bg-white">
-                            <a href="#" class="coverlink"></a>
-                            <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
-                            <div class="teams-content">
-                                <h3><?php the_title(); ?></h3>
-                            </div>
-                        </div>
-                    </div> 
-                <?php
-              }
-            }
             ?>
         </div>
     </div>
