@@ -3,7 +3,7 @@
 @import 'flickity';
 @import 'select2'; 
 @import 'nav';   
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700';
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
 
 @font-face {
 	font-family: 'fontawesome';
@@ -16,7 +16,7 @@
 	font-style: normal;
 }
 /* Variabele */
-$font-primary:      'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+$font-primary:      'Merriweather Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-secondary:    Helvetica Neue, Helvetica, Arial, sans-serif;
 $basic-padding:     3rem 0;
 $blue:               #395AA6;
@@ -608,6 +608,9 @@ header {
 .teams-wrapper{
     position:relative;
     margin-bottom:4rem;
+    .coverlink{
+        bottom:11rem;
+    }
     .teams-image{
         padding-left:3rem;
         min-height:20rem;
