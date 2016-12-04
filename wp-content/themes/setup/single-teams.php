@@ -4,6 +4,7 @@
  */
 get_header(); ?>
 
+
 <section id="team" class="pan">
     <div class="container-fluid">
         <div class="row">

@@ -11,20 +11,26 @@
         offsetcontainer();
         calcheight();
     })
+    
 })
 
 jQuery(document).ready(function($){
      $("select").select2({
          minimumResultsForSearch: Infinity
      });
+
     
+    // Javascript to enable link to tab
     var hash = document.location.hash;
     var prefix = "";
     if (hash) {
-        $('.tabs a[href=' + hash.replace(prefix, "") + ']').tab('show');
-    }
-    $('.tabs a').on('click', function (e) {                    
+        $('.nav.tabs a[href='+hash.replace(prefix,"")+']').tab('show');
+    } 
+
+    // Change hash for page-reload
+    $('.nav.tabs a').on('shown.bs.tab', function (e) {
         window.location.hash = e.target.hash.replace("#", "#" + prefix);
+        window.scrollTo(0, 550); 
     });
 });
 
