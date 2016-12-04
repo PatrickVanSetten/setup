@@ -30,6 +30,8 @@ jQuery(document).ready(function($){
     // Change hash for page-reload
     $('.nav.tabs a').on('shown.bs.tab', function (e) {
         window.location.hash = e.target.hash.replace("#", "#" + prefix);
+        localStorage.setItem('lastTab', $(this).attr('href'));
+        $(this).parent().addClass('active'); 
         window.scrollTo(0, 550); 
     });
 });

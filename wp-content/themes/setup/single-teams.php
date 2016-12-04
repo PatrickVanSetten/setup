@@ -4,14 +4,13 @@
  */
 get_header(); ?>
 
-
 <section id="team" class="pan">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pan">
                 <div class="wrapper">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="team-informatie">
+                        <div class="tab-pane fade active" id="team-informatie">
                             <h1><?php the_title(); ?></h1>
                             <?php while ( have_posts() ) : the_post(); ?>
                             <?php the_content(); ?>
@@ -90,17 +89,17 @@ get_header(); ?>
                                 wp_reset_postdata();
                             ?>
                         </div>
-                        <div class="tab-pane" id="stand">
+                        <div class="tab-pane fade" id="stand">
                             <h2>Stand</h2>
                             <?php $shortcode = get_post_meta($post->ID,'stand',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
-                        <div class="tab-pane" id="uitslagen">
+                        <div class="tab-pane fade" id="uitslagen">
                             <h2>Uitslagen</h2>
                             <?php $shortcode = get_post_meta($post->ID,'uitslagen',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
-                        <div class="tab-pane" id="programma">
+                        <div class="tab-pane fade" id="programma">
                             <h2>Programma</h2>
                             <?php $shortcode = get_post_meta($post->ID,'programma',true);
                             echo do_shortcode($shortcode); ?>
