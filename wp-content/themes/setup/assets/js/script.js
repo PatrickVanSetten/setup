@@ -17,7 +17,17 @@ jQuery(document).ready(function($){
      $("select").select2({
          minimumResultsForSearch: Infinity
      });
+    
+    var hash = document.location.hash;
+    var prefix = "";
+    if (hash) {
+        $('.tabs a[href=' + hash.replace(prefix, "") + ']').tab('show');
+    }
+    $('.tabs a').on('click', function (e) {                    
+        window.location.hash = e.target.hash.replace("#", "#" + prefix);
+    });
 });
+
 
 
 function offsetcontainer(){

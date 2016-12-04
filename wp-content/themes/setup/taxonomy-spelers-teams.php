@@ -26,12 +26,12 @@ get_header(); ?>
                         <a href="<?php echo $team->slug; ?>" class="coverlink"></a>
                         <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
                         <div class="teams-content">
-                            <select>
-                                <option selected="selected"><?php echo $team->name; ?></option>
-                                <option value="team">Team</option>
-                                <option value="stand">Stand</option>
-                                <option value="programma">Programma</option>
-                                <option value="uitslagen">Uitslagen</option>
+                            <select onchange="if (this.value) window.location.href=this.value">
+                                <option value="<?php echo $team->slug; ?>/#team-informatie">Team</option>
+                                <option value="<?php echo $team->slug; ?>/#stand">Stand</option>
+                                <option value="<?php echo $team->slug; ?>/#uitslagen">Uitslagen</option>
+                                <option value="<?php echo $team->slug; ?>/#programma">Programma</option>
+                                <option value="<?php echo $team->slug; ?>" selected="selected"><?php echo $team->name; ?></option>
                             </select>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ get_header(); ?>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pan">
                 <div class="wrapper">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="tab1">
+                        <div class="tab-pane active" id="team-informatie">
                             <h1><?php the_title(); ?></h1>
                             <?php while ( have_posts() ) : the_post(); ?>
                             <?php the_content(); ?>
@@ -89,17 +89,17 @@ get_header(); ?>
                                 wp_reset_postdata();
                             ?>
                         </div>
-                        <div class="tab-pane" id="tab2">
+                        <div class="tab-pane" id="stand">
                             <h2>Stand</h2>
                             <?php $shortcode = get_post_meta($post->ID,'stand',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
-                        <div class="tab-pane" id="tab3">
+                        <div class="tab-pane" id="uitslagen">
                             <h2>Uitslagen</h2>
                             <?php $shortcode = get_post_meta($post->ID,'uitslagen',true);
                             echo do_shortcode($shortcode); ?>
                         </div>
-                        <div class="tab-pane" id="tab4">
+                        <div class="tab-pane" id="programma">
                             <h2>Programma</h2>
                             <?php $shortcode = get_post_meta($post->ID,'programma',true);
                             echo do_shortcode($shortcode); ?>
@@ -113,10 +113,10 @@ get_header(); ?>
                     <nav class="nav-sidebar">
                         <h3>Snel navigeren</h3>
                         <ul class="nav tabs">
-                            <li class="active"><a href="#tab1" data-toggle="tab">Team informatie</a></li>
-                            <li class=""><a href="#tab2" data-toggle="tab">Stand</a></li>
-                            <li class=""><a href="#tab3" data-toggle="tab">Uitslagen</a></li>
-                            <li class=""><a href="#tab4" data-toggle="tab">Programma</a></li> 
+                            <li class="active"><a href="#team-informatie" data-toggle="tab">Team informatie</a></li>
+                            <li class=""><a href="#stand" data-toggle="tab">Stand</a></li>
+                            <li class=""><a href="#uitslagen" data-toggle="tab">Uitslagen</a></li>
+                            <li class=""><a href="#programma" data-toggle="tab">Programma</a></li> 
                         </ul>
                     </nav>
                 </div>
