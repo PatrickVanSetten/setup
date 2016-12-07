@@ -5,13 +5,7 @@
     });
     $('.tabs-nav-list').eq(0).addClass('active');
     $('.tab-pane').removeClass('active');
-    $('.tab-pane').eq(0).addClass('active');
-
-    $(window).resize(function(){
-        offsetcontainer();
-        calcheight();
-    })
-    
+    $('.tab-pane').eq(0).addClass('active');    
 })
 
 jQuery(document).ready(function($){
@@ -25,18 +19,23 @@ jQuery(document).ready(function($){
     var prefix = "";
     if (hash) {
         $('.nav.tabs a[href='+hash.replace(prefix,"")+']').tab('show');
+        $('.nav.tabs a[href='+hash.replace(prefix,"")+']').removeClass('active');  
     } 
 
     // Change hash for page-reload
     $('.nav.tabs a').on('shown.bs.tab', function (e) {
         window.location.hash = e.target.hash.replace("#", "#" + prefix);
         localStorage.setItem('lastTab', $(this).attr('href'));
+        $('.nav.tabs a[href='+hash.replace(prefix,"")+']').removeClass('active');  
         $(this).parent().addClass('active'); 
         window.scrollTo(0, 550); 
     });
 });
 
-
+jQuery(window).resize(function(){
+    offsetcontainer();
+    calcheight();
+})
 
 function offsetcontainer(){
     var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();

@@ -59,8 +59,8 @@
  'after_title' => '</h3>',
  ));
 register_sidebar(array(
- 'name' => 'Widget',
- 'id' => 'widget',
+ 'name' => 'Widget events',
+ 'id' => 'widget-events',
  'before_widget' => '',
  'after_widget' => '',
  'before_title' => '<h3>',

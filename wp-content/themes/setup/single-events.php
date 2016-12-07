@@ -17,12 +17,8 @@ get_header(); ?>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bg-grey pan">
                 <div class="sidebar">
-                    <p>Wahahaooo</p>
-                    <p>Wahahaooo</p>
-                    <p>Wahahaooo</p>
-                    <p>Wahahaooo</p>
-                    <p>Wahahaooo</p>
-                    <p>Wahahaooo</p>
+                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-events') ) : ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
