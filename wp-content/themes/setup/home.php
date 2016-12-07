@@ -45,40 +45,29 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 sponsor">
                 <div class="featured-wrapper bg-white">
-                    <a href="#" class="coverlink"></a>
-                    <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/sponsor.jpg')"></div>
+                    <a href="<?php the_field('link');?>" target="_blank" class="coverlink"></a>
+                     <?php
+                        $thumb = get_field('foto_balsponsor'); 
+                        $image = vt_resize( $thumb, '', 400, 400, true );
+                        ?>
+                    <div class="featured-image" style="background-image:url('<?php echo $image[url]; ?>');"></div>
                     <div class="featured-content">
                         <h3>Balsponsor van de week</h3>
-                        <span>subtitle</span>
+                        <span><?php the_field('balsponsor_van_de_week');?></span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 mini-ster">
                 <div class="featured-wrapper bg-white">
                     <a href="#" class="coverlink"></a>
-                    <div class="featured-image" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/minister.jpg')"></div>
+                    <?php
+                        $thumb = get_field('foto'); 
+                        $image1 = vt_resize( $thumb, '', 400, 400, true );
+                    ?>
+                    <div class="featured-image" style="background-image:url('<?php echo $image1[url]; ?>');"></div>
                     <div class="featured-content">
                         <h3>Mini-ster van de week</h3>
-                       <?php
-    
-    
-    
-    
-    
-
-                        $post_object = get_field('mini_ster_van_de_week');
-                         var_dump($post_object);
-
-                        if( $post_object ):
-
-                            // override $post
-                            $post = $post_object;
-                            setup_postdata( $post );
-
-                            ?>
-                            <span><?php the_title(); ?></span>
-                            <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-                        <?php endif; ?>
+                        <span><?php the_field('minister_van_de_week');?></span>
                     </div>
                 </div>
             </div>

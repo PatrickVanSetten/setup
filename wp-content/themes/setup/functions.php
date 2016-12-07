@@ -3,8 +3,16 @@
 //REGISTER WIDGET AREAS
  if ( function_exists('register_sidebars') ) {
  register_sidebar(array(
- 'name' => 'Homepage Kalender',
- 'id' => 'homepagekalender',
+ 'name' => 'Laatste berichten',
+ 'id' => 'laatsteberichten',
+ 'before_widget' => '',
+ 'after_widget' => '',
+ 'before_title' => '<h3 class="footertitle">',
+ 'after_title' => '</h3>',
+ ));
+ register_sidebar(array(
+ 'name' => 'Vereniging',
+ 'id' => 'vereniging',
  'before_widget' => '',
  'after_widget' => '',
  'before_title' => '<h3 class="footertitle">',

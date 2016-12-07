@@ -10,7 +10,7 @@
 </head>
 <body <?php body_class( $class ); ?>>
     
-<section id="navbar" class="pan hidden-sm hidden-xs navbar-fixed-top">
+<section id="navbar" class="pan hidden-sm hidden-xs">
     <div class="adressbarright widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
