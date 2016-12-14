@@ -17,11 +17,11 @@
 }
 @font-face {
     font-family: 'set up';
-    src: url('../fonts/set-up.eot');
-    src: url('../fonts/set-up.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/set-up.woff') format('woff'),
-         url('../fonts/set-up.ttf') format('truetype'),
-         url('../fonts/set-up.svg#set-up') format('svg');
+    src: url('../fonts/icons/set-up.eot');
+    src: url('../fonts/icons/set-up.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icons/set-up.woff') format('woff'),
+         url('../fonts/icons/set-up.ttf') format('truetype'),
+         url('../fonts/icons/set-up.svg#set-up') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -194,9 +194,42 @@ header {
 
 /* Sidebar */
 .sidebar{
+    display:table;
+    width:100%;
+    h3{
+        color:$blue;
+        margin-bottom:3rem;
+    }
     ul{
         list-style:none;
         padding:0;
+        a{
+            display:block;
+            color:$text;
+            position:relative;
+            margin-bottom:1rem;
+            &:after{
+                content:'\0044';
+                font-family:'set up';
+                font-size: 1.3rem;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                @include transform(translateY(-50%));
+                @include transition(0.3s all ease-in-out);
+            }
+            &:hover{
+                color:$dark;
+                &:after{
+                    right:1rem;
+                }
+            }
+        }
+        li.current-menu-item{
+            a{
+                color:$blue;
+            } 
+        }
     }
 }
 
@@ -781,7 +814,15 @@ li.menu-item-has-children{
         top:0;
         background-color:$grey;
         height:calc(100% + 45rem);
+        z-index:-1;
         //margin-top:-45rem;
+    }
+    .sidebar{
+        .month{
+            color:#B9B9B9;
+            display:inline-block;
+            text-transform:lowercase;
+        }
     }
 }
 
@@ -799,6 +840,26 @@ li.menu-item-has-children{
     }
 }
 
+/* Single post */
+#post{
+    .wrapper{
+        padding:5rem 5rem 5rem 0;
+        .date{
+            margin-bottom:2rem;
+            display:table;
+            width:100%;
+        }
+    }
+    .sidebar {
+        padding: 5rem 5rem 5rem 15px;
+        height: 100%;   
+    }
+    h1{
+        margin-top:3rem;
+    }
+    
+}
+
 /* Team pagina */
 #team {
     position: relative;
@@ -809,6 +870,7 @@ li.menu-item-has-children{
         background-color:$grey;
         height:calc(100% + 45rem);
         margin-top:-45rem;
+        z-index:-1;
     }
     .wrapper {
         padding: 5rem 5rem 5rem 15px;
