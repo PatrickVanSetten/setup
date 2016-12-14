@@ -166,7 +166,8 @@ get_header(); ?>
 <section id="evenementen" class="bg-grey">
     <div class="container-fluid">
         <div class="row">
-        <?php
+            <h2>Komende evenementen</h2>
+            <?php
              $args = array(
                     'post_type' => 'events',
                     'order' => 'DESC',
@@ -199,7 +200,7 @@ get_header(); ?>
                         </div>
                         <div class="event-content">
                             <h3><?php the_title(); ?></h3>
-                            <p><?php the_excerpt(); ?></p>
+                            <?php the_excerpt(); ?>
                         </div>
                     </div>
                 </div>
@@ -210,6 +211,7 @@ get_header(); ?>
                 $return = '';
                 wp_reset_postdata();
                 ?>
+            <a href="#" class="button">Bekijk alle evenementen</a>
         </div>
     </div>
 </section>

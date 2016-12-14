@@ -4,8 +4,8 @@
  */
 get_header(); ?>
 
-<section id="event" class="pan">
-    <div class="greybarright widthcalc"></div>
+<section id="vereniging" class="pan content-page">
+    <div class="greybarleft widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bg-grey pan">
