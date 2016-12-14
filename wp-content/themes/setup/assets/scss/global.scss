@@ -2,6 +2,7 @@
 @import 'browser_compatible';
 @import 'flickity';
 @import 'select2'; 
+@import 'lightbox';  
 @import 'nav';   
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
 
@@ -13,7 +14,7 @@
 		url('../fonts/fontawesome/fontawesome.ttf?-e43dk9') format('truetype'),
 		url('../fonts/fontawesome/fontawesome.svg?-e43dk9#fontawesome') format('svg');
 	font-weight: normal;
-	font-style: normal;
+	font-style: normal; 
 }
 @font-face {
     font-family: 'set up';
@@ -35,7 +36,7 @@
    -moz-osx-font-smoothing: grayscale
 }
 .icon-overzicht:before{content:'\0041';}
-.icon-phone:before{content:'\0042';}
+.icon-phone:before{content:'\0042';} 
 .icon-close:before{content:'\0043';}
 .icon-arrow-right:before{content:'\0044';}
 .icon-facebook:before{content:'\0045';}
@@ -781,10 +782,8 @@ li.menu-item-has-children{
         top:0;
         background-color:$grey;
         height:calc(100% + 45rem);
-        //margin-top:-45rem;
     }
 }
-
 /* Content */
 
 .content-page{
@@ -799,6 +798,27 @@ li.menu-item-has-children{
     }
 }
 
+/* Photos */
+#gallery {
+    position: relative;
+    .wrapper {
+        padding: 5rem 0; 
+    }
+    .gallery-image {
+        margin-bottom: 3rem;
+    }
+    .gallery-image {
+        .photo{
+            width: 100%;
+            height: 22rem;
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+}
+
+
+>>>>>>> Stashed changes
 /* Team pagina */
 #team {
     position: relative;
