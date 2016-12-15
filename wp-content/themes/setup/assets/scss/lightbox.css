@@ -100,7 +100,7 @@ body.lb-disable-scrolling {
 
 .lb-nav a.lb-prev {
   content:'\0044';
-  width: 34%;
+  width: 50%;
   left: 0;
   float: left;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -118,7 +118,7 @@ body.lb-disable-scrolling {
 
 .lb-nav a.lb-next {
   content:'\0044';
-  width: 64%;
+  width: 50%;
   right: 0;
   float: right;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -184,7 +184,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-close {
-  display: block;
+  display: none;
   float: right;
   width: 30px;
   height: 30px;
