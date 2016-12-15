@@ -1033,6 +1033,28 @@ footer{
     background-position: center center;
 }
 
+/* Lightbox */
+.lb-next:after{
+    content: '\0044';
+    font-family: 'set up';
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    color: white;
+    z-index: 99999;
+    transform: translateY(-50%);
+}
+.lb-prev:after{
+    content: '\0044';
+    font-family: 'set up';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    color: white;
+    z-index: 99999;
+    transform: translateY(-50%) rotate(180deg);
+}
+
 /*.scrolled{
     #navbar .logo img{
         width:60%;

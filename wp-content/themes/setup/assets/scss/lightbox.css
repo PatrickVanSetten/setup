@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: '';
   display: none;
 }
 
@@ -27,6 +27,8 @@ body.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }
 
 .lightbox .lb-image {
