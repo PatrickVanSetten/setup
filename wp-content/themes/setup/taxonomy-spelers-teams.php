@@ -23,7 +23,7 @@ get_header(); ?>
                 ?>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
                     <div class="teams-wrapper bg-white">
-                        <a href="<?php echo $team->slug; ?>" class="coverlink"></a>
+                        <a href="<?php echo $team->slug; ?>/#team-informatie" class="coverlink"></a>
                         <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
                         <div class="teams-content">
                             <select onchange="if (this.value) window.location.href=this.value">

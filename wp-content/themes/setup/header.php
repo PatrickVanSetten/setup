@@ -26,6 +26,24 @@
         </div>
     </div>
 </section>    
+    
+<section id="mobile-header" class="ptn pbn navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="brand">
+            <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
+        </div>
+        <button id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div id="mobile-nav" class="ptn pbn">
+        <div class="table-cell">
+            <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0));?>
+        </div>
+    </div>
+</section>
 
 <section id="crumble-path" class="pan">
      <div class="container-fluid">

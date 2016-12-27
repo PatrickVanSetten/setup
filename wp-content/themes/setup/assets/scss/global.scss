@@ -333,6 +333,9 @@ header {
         }
     }
 }
+#mobile-header, #mobile-nav {
+    display:none;
+}
 .sub-menu{
     position:absolute;
     left:0;
