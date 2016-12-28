@@ -1146,6 +1146,34 @@ body.nav-open #hamburger span:last-child{
     }
 }
 
+/* Downloads */
+#downloads {
+    .wrapper {
+        padding: 5rem;
+    }
+    .row {
+        @include flexbox;
+        @include flex-wrap(wrap);
+        a {
+            width: 100%;
+        }
+    }
+    .contentblock {
+        background-color:$grey;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+        @include transition(0.3s all ease-in-out);
+        width: 100%;
+        &:hover {
+            background-color:$blue;
+            color: white;
+        }
+        span {
+            display: block;
+        }
+    }
+}
+
 /* Footer */
 footer{
     background-color:$blue;
