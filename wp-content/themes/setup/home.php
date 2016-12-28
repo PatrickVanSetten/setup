@@ -147,21 +147,43 @@ get_header(); ?>
     </div>
 </section>
 
-<section id="photos" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/featured-event.jpg')">
+<?php
+    $args = array(
+        'post_type' => 'galleries',
+        'order' => 'DESC',
+        'posts_per_page' => 1
+    );
+
+    $myposts = get_posts($args);
+    foreach ($myposts as $post) : setup_postdata($post);
+
+    $filter = array();
+    $filter['intro'] = strtolower( get_the_title() );
+    $thumb = get_post_thumbnail_id(); 
+    $image = vt_resize( $thumb, '', 800, 400, true );
+?>
+<section id="photos" style="background-image: url(<?php echo $image[url]; ?>)" data-filter-data='<?=json_encode( $filter )?>'>
     <div class="photowrapperbg widthcalc"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <div class="photo-wrapper bg-white">
-                    <h2>Foto's volleybaltoernooi de Bree</h2>
-                    <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
-                    <a href="#" class="button">Lees dit bericht</a>
-                </div>
+                
                 <span class="photowrapper-offset"></span>
+                <div class="photo-wrapper bg-white">
+                    <h2><?php the_title(); ?></h2>
+                    <p><?php the_field('intro');?></p>
+                    <a href="<?php the_permalink(); ?>" class="button">Lees dit bericht</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<?php
+    endforeach;
+    echo $return;
+    $return = '';
+    wp_reset_postdata();
+?>
 
 <section id="evenementen" class="bg-grey">
     <div class="container-fluid">
