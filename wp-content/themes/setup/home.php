@@ -43,7 +43,7 @@ get_header(); ?>
 <section id="featured-items" class="bg-grey">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 sponsor">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-sx-12 sponsor">
                 <div class="featured-wrapper bg-white">
                     <a href="<?php the_field('link');?>" target="_blank" class="coverlink"></a>
                      <?php
@@ -57,7 +57,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 mini-ster">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-sx-12 mini-ster">
                 <div class="featured-wrapper bg-white">
                     <a href="#" class="coverlink"></a>
                     <?php
@@ -72,7 +72,7 @@ get_header(); ?>
                 </div>
             </div>
             
-            <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 birthdays">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-sx-12 birthdays">
                 <div class="featured-wrapper">
                     <div class="featured-content">
                         <h3>Onze jarigen</h3>
@@ -167,50 +167,53 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <h2>Komende evenementen</h2>
-            <?php
-             $args = array(
-                    'post_type' => 'events',
-                    'order' => 'DESC',
-                    'posts_per_page' => 3
-                );
+            <div class="carousel-events" data-flickity='{ "lazyLoad": true, "pageDots": true, "wrapAround": true, "prevNextButtons": false }'>         
+                  <?php
+                     $args = array(
+                            'post_type' => 'events',
+                            'order' => 'DESC',
+                            'posts_per_page' => 3
+                        );
 
-                $myposts = get_posts($args);
-                foreach ($myposts as $post) : setup_postdata($post);
+                        $myposts = get_posts($args);
+                        foreach ($myposts as $post) : setup_postdata($post);
 
-                $filter = array();
-                $filter['title'] = strtolower( get_the_title() );
-                $filter['datum'] = strtolower( get_field('datum') );
-                $filter['beschrijving'] = strtolower( get_field('beschrijving') );
-                $thumb = get_post_thumbnail_id(); 
-                $image = vt_resize( $thumb, '', 800, 400, true );
-                ?>
+                        $filter = array();
+                        $filter['title'] = strtolower( get_the_title() );
+                        $filter['datum'] = strtolower( get_field('datum') );
+                        $filter['beschrijving'] = strtolower( get_field('beschrijving') );
+                        $thumb = get_post_thumbnail_id(); 
+                        $image = vt_resize( $thumb, '', 800, 400, true );
+                        ?>
 
-                <?php
-                    $term_list = wp_get_post_terms($post->ID, 'event-categories', array("fields" => "all"));
-                ?>
-            
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="event-wrapper bg-white">
-                        <a href="<?php the_permalink(); ?>" class="coverlink"></a>
-                        <div class="event-image" style="background-image: url(<?php echo $image[url]; ?>)" data-filter-data='<?=json_encode( $filter )?>'>
-                            <div class="date-wrapper">
-                                <div class="date"><?php $date = new DateTime(get_field('datum')); echo $date->format('d'); ?></div>
-                                <div class="month"><?php $date = new DateTime(get_field('datum')); echo $date->format('M'); ?></div>  
+                        <?php
+                            $term_list = wp_get_post_terms($post->ID, 'event-categories', array("fields" => "all"));
+                        ?>
+                        
+                        <div class="carousel-cell">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="event-wrapper bg-white">
+                                    <a href="<?php the_permalink(); ?>" class="coverlink"></a>
+                                    <div class="event-image" style="background-image: url(<?php echo $image[url]; ?>)" data-filter-data='<?=json_encode( $filter )?>'>
+                                        <div class="date-wrapper">
+                                            <div class="date"><?php $date = new DateTime(get_field('datum')); echo $date->format('d'); ?></div>
+                                            <div class="month"><?php $date = new DateTime(get_field('datum')); echo $date->format('M'); ?></div>  
+                                        </div>
+                                    </div>
+                                    <div class="event-content">
+                                        <h3><?php the_title(); ?></h3>
+                                        <?php the_excerpt(); ?>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="event-content">
-                            <h3><?php the_title(); ?></h3>
-                            <?php the_excerpt(); ?>
-                        </div>
-                    </div>
-                </div>
-
-                <?php
-                endforeach;
-                echo $return;
-                $return = '';
-                wp_reset_postdata();
-                ?>
+                    <?php
+                    endforeach;
+                    echo $return;
+                    $return = '';
+                    wp_reset_postdata();
+                    ?>     
+            </div>
             <a href="#" class="button">Bekijk alle evenementen</a>
         </div>
     </div>

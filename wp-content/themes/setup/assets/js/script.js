@@ -1,6 +1,6 @@
 jQuery(window).on('resize',function($) {
     offsetcontainer();
-    calcheight();
+    calcheight();  
 });
 
 jQuery(document).ready(function($) {
@@ -18,10 +18,10 @@ jQuery(document).ready(function($) {
 			$('body').removeClass('scrolled');
 		}
 	});
+
     
     offsetcontainer();
     calcheight();
-
     
     // Javascript to enable link to tab
     var hash = document.location.hash;
@@ -42,8 +42,8 @@ jQuery(document).ready(function($) {
 });
 
 function offsetcontainer(){
-    var ruimte = jQuery(window).width() - jQuery('.container-fluid').width();
-        ruimte = ruimte / 2;
+    var ruimte = jQuery(window).width() - jQuery('.container-fluid').closest('.container-fluid').width();
+    ruimte = ruimte / 2;
     jQuery('.widthcalc').css('width',ruimte);
 }offsetcontainer();
 
@@ -68,3 +68,18 @@ function calcheight(){
     $('.tab-pane').removeClass('active');
     $('.tab-pane').eq(0).addClass('active');    
 })(jQuery)
+
+
+/*  var $carousel = $('.carousel').flickity();
+var isFlickity = true;
+
+if (jQuery(window).width() > 960) {
+  if ( isFlickity ) {
+    // destroy Flickity
+    $carousel.flickity('destroy');
+  } else {
+    // init new Flickity
+        $carousel.flickity;
+  }
+  isFlickity = !isFlickity;
+} */
