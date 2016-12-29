@@ -17,8 +17,9 @@
             <div class="col-lg-6 col-md-4 col-sm-6 col-xs-4 brand">
                 <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs adressbartop">
-                <span>Marktstraat 59, 3925 JP Scherpenzeel        Lid worden        Contact</span>
+            <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs adressbartop">
+                <span>Marktstraat 59, 3925 JP Scherpenzeel</span>
+                <?php wp_nav_menu(array('container' => false, 'theme_location' => 'secondary', 'items_wrap' => '%3$s', 'depth' => 0));?>
             </div>
             <div class="menuwrapper text-right">
                 <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0));?>

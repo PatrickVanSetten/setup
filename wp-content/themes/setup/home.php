@@ -247,13 +247,17 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                 <div class="about-wrapper bg-white">
-                    <h2>Foto's volleybaltoernooi de Bree</h2>
-                    <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
-                    <a href="#" class="button">Lees dit bericht</a>
+                    <h2><?php the_field('titel_over_vereniging');?></h2>
+                    <p><?php the_field('tekst_over_vereniging');?></p>
+                    <a href="<?php the_field('button_link_over_vereniging');?>" class="button"><?php the_field('button_tekst_over_vereniging');?></a>
                     <span class="aboutwrapper-offset"></span>
                 </div>
             </div>
-            <div class="aboutimage" style="background-image:url('<?= get_template_directory_uri()?>/assets/img/featured-event.jpg')">
+            <?php
+                $thumb = get_field('afbeelding_over_vereniging'); 
+                $image3 = vt_resize( $thumb, '', 800, 800, true );
+            ?>
+            <div class="aboutimage" style="background-image:url('<?php echo $image3[url]; ?>');">
             </div>
         </div>
     </div>

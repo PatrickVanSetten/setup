@@ -66,6 +66,14 @@ register_sidebar(array(
  'before_title' => '<h3>',
  'after_title' => '</h3>',
  ));
+ register_sidebar(array(
+ 'name' => 'Contact',
+ 'id' => 'contactgegevens',
+ 'before_widget' => '',
+ 'after_widget' => '',
+ 'before_title' => '<h3>',
+ 'after_title' => '</h3>',
+ ));
  }
  
 add_filter('show_admin_bar', '__return_false');

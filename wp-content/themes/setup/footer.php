@@ -31,7 +31,7 @@
                 <p>Realisatie door <a href="https://www.zekerzichtbaar.nl" target="_blank">Zeker Zichtbaar</a></p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 social text-right">
-                <a href="https://www.facebook.com/setup69/?fref=ts"><i class="icon-facebook"></i></a>
+                <a target="_blank" href="https://www.facebook.com/setup69/?fref=ts"><i class="icon-facebook"></i></a>
             </div>
         </div>
     </div>
