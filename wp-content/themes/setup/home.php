@@ -189,7 +189,7 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <h2>Komende evenementen</h2>
-            <div class="carousel-events" data-flickity='{ "lazyLoad": true, "pageDots": true, "wrapAround": true, "prevNextButtons": false }'>         
+            <div class="carousel-events" data-flickity='{ "lazyLoad": true, "pageDots": true, "wrapAround": true, "prevNextButtons": false, "watchCSS": true }'>         
                   <?php
                      $args = array(
                             'post_type' => 'events',

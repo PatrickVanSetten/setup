@@ -68,18 +68,3 @@ function calcheight(){
     $('.tab-pane').removeClass('active');
     $('.tab-pane').eq(0).addClass('active');    
 })(jQuery)
-
-
-/*  var $carousel = $('.carousel').flickity();
-var isFlickity = true;
-
-if (jQuery(window).width() > 960) {
-  if ( isFlickity ) {
-    // destroy Flickity
-    $carousel.flickity('destroy');
-  } else {
-    // init new Flickity
-        $carousel.flickity;
-  }
-  isFlickity = !isFlickity;
-} */

@@ -803,7 +803,7 @@ body.nav-open #hamburger span:last-child{
         text-align:center;
     }
     .button{
-        margin:0 auto;
+        margin: 6rem auto 0 auto;
         display:table;
     }
     .carousel-events {
@@ -813,6 +813,10 @@ body.nav-open #hamburger span:last-child{
             }
         }
     }
+}
+/* disable Flickity for large devices */
+.carousel-events:after {
+    content: '';
 }
 .event-wrapper{
     position:relative;
