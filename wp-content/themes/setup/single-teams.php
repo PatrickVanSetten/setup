@@ -10,7 +10,7 @@ get_header(); ?>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pan">
                 <div class="wrapper">
                     <div class="tab-content">
-                        <div class="tab-pane fade active" id="team-informatie">
+                        <div class="tab-pane  active" id="team-informatie">
                             <h1><?php the_title(); ?></h1>
                             <?php while ( have_posts() ) : the_post(); ?>
                             <?php the_content(); ?>

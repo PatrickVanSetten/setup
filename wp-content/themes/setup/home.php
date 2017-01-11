@@ -103,14 +103,22 @@ get_header(); ?>
                         //var_dump($sql);
                         //var_dump($results);
                         
-                        $limit = 5;
+                        $limit = 4;
                         foreach( $results as $result ) {
                             if ( $result['m'] == 0 && $result['d'] > 0 ) {
                                 continue;
                             }
+                            $time = strtotime( $result['meta_value']);
+                            $age = intval(date('Y')) - intval(date('Y',$time));
+                            $months = array(
+                                'Unused',
+                                'Januari',
+                                'Feb',
+                                'Ma'
+                            );
                                 ?>
                                     <div class="person">
-                                        <span class="date"><?=date('d/m/Y',strtotime( $result['meta_value']))?></span>
+                                        <span class="date"><?=date('d',$time)?> <?=$months[date('n',$time)]?> (<?=$age?> jaar)</span>
                                         <span class="name"><?=$result['post_title']?></span>
                                         <span class="seperator"></span>
                                     </div>

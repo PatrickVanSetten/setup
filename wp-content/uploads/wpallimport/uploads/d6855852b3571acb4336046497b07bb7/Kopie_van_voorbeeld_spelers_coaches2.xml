@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<naam><![CDATA[Hilde Tanghe]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[05-11-88]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Mareille Valkenburg]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[14-01-98]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Nienke van de Wetering]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[09-03-92]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carlijn van de Wetering]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[13-09-89]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Daphne Stoffelsen]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[29-10-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Edith Thomassen]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[07-05-91]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Laurette Willems]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[lib]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[15-07-97]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Romee van den Berg]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[02-03-96]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lisa Weijman]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[05-07-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Manon Stoffelsen]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[12]]></rugnummer>
+		<geboortedatum><![CDATA[25-08-96]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marco Benne]]></naam>
+		<team><![CDATA[Dames|Dames 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[01-10-61]]></geboortedatum>
+		<type><![CDATA[trainer/ coach ds. 1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Erica Bos]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[28-07-68]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Mirjam Eilander]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[30-07-97]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Denise de Greef]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[sv/dia]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[28-07-93]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lisa Klumpenaar]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[27-03-97]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Esmee Erisman]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[15-10-96]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Mandy de Greef]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[11-12-87]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Inge Fledderus]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[19-02-76]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Diane van de Peut]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[lib]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[07-10-74]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Simone van Duinkerken]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[27-06-92]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Mark van Leijenhorst]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[18-11-78]]></geboortedatum>
+		<type><![CDATA[trainer ds. 2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jantine van den Berg]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[21-07-67]]></geboortedatum>
+		<type><![CDATA[coach ds. 2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Monique Arts]]></naam>
+		<team><![CDATA[Dames|Dames 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[04-10-69]]></geboortedatum>
+		<type><![CDATA[coach ds. 2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Myrthe Dijkstra ]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[14-10-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Misha Nab]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[20-05-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Maroeshka van de Berkt]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[14-09-82]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Leonie Lagerweij]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[22-07-97]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Annemieke van Voorthuizen]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[07-12-89]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Ines de Jong]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[17-02-70]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Cornelie Veer]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[04-07-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Janise van den Berg]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[sv/pl]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[24-11-93]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Ben Evers]]></naam>
+		<team><![CDATA[Dames|Dames 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-07-56]]></geboortedatum>
+		<type><![CDATA[trainer/ coach ds. 3]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carola Slotboom]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[11-05-93]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sandra van de Grift]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[pl ]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[19-05-87]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Alieke Werkman]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[19-04-92]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Rianne Werkman]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[06-03-92]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Pauline Vonk ]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[20-07-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Michelle van Duinkerken]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[28-08-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sanne Versteeg]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[27-07-97]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Denise Schreuder]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[02-11-94]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Edith ter Maaten]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[28-07-67]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kirsten Ypma]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[05-11-77]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Renata van Heck]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[29-03-58]]></geboortedatum>
+		<type><![CDATA[trainer ds. 4]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Cees van den Berg]]></naam>
+		<team><![CDATA[Dames|Dames 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[09-11-67]]></geboortedatum>
+		<type><![CDATA[coach ds. 4]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Annejet Plomp]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[26-10-97]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Diana van Ginkel]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[06-04-69]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Trudy van Leeuwen]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[26-11-71]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Eline berkhof]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[26-07-95]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Bettina Featherstone]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[25-01-71]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Yvonne de Heer]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[31-01-75]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Thea Bakkenes]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[24-11-76]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Femke Nawijn]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[13]]></rugnummer>
+		<geboortedatum><![CDATA[09-08-96]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Peter van Toor]]></naam>
+		<team><![CDATA[Dames|Dames 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[21-02-51]]></geboortedatum>
+		<type><![CDATA[trainer / coach ds. 5]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Eline Braun]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[19-07-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Denise van de Broek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[08-04-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kim van de Kraats]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[05-06-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Babette van de Heide]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[12-05-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Merith Erisman]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[21-07-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Dianne ter Maaten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[10-03-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Biba Klarenbeek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[22-06-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lotte Gaasbeek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[09-06-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Melanie de Jong]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[pl/dia]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[15-09-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Michiel Bakker]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[18-02-70]]></geboortedatum>
+		<type><![CDATA[trainer/coach MA1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Abia Veenvliet]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[05-11-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lisanna vd Fliert]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[16-12-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sharon Willems]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[04-11-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Iris van Snippenberg]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[22-11-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Gwen Bloch]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[sv/dia/pl]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[05-04-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sanne van de Peut]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[06-01-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Britt Mandersloot]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[01-06-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Leonie Geefshuijsen]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[sv ]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[25-03-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tessa ter Maaten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[09-07-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Henk Veenvliet]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[10-08-68]]></geboortedatum>
+		<type><![CDATA[trainer/coach A2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Anouk Vermeulen]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[12-11-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tessa ter Maaten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[pl/dia]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[09-07-02]]></geboortedatum>
+		<type><![CDATA[speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lisa Bouw]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[24-03-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Danique van Ginkel]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[sv/dia]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[04-04-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lisa Veen]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[04-09-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Dike van de Glind]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[15-04-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Joyce van de Brink]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[22-10-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kim Geijtenbeek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes A3]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[27-09-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Ben Evers]]></naam>
+		<team><![CDATA[]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-07-56]]></geboortedatum>
+		<type><![CDATA[trainer A3]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Diana van Ginkel]]></naam>
+		<team><![CDATA[]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[06-04-69]]></geboortedatum>
+		<type><![CDATA[coach A3]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Esmee Berghuizen]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[19-02-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Michelle van Veller]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[pl/dia]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[01-03-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Veronie Vonk]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[21-02-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Anouk Tekelenburg]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[19-12-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Thamara Leyenhorst]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[15-01-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marit Donselaar ]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[sv/dia]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[11-05-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Arienne van Dijk]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[09-04-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Emma van Dijk]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[22-07-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Beryl Osnabrugge]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[16-02-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Janise van den Berg]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[24-11-93]]></geboortedatum>
+		<type><![CDATA[trainer/coach B1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Chananja Veenvliet]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[09-06-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Anne Jacobs]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[18-03-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Danique Leyenhorst]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[13-03-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Britt Geijtenbeek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[02-05-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Yamele van Kampen]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[08-12-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marjolein Gaasbeek]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[sv/dia]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[26-06-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lindsey Willems]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[12-07-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sterre de Jong]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[16-07-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jikke van de Peut]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[29-08-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Romee van den Berg]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[02-03-96]]></geboortedatum>
+		<type><![CDATA[Trainer B2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Alfons Leyenhorst]]></naam>
+		<team><![CDATA[Meisjes|Meisjes B2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[05-07-70]]></geboortedatum>
+		<type><![CDATA[Coach B2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Wismaline Zegers]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[08-10-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Maureen Nieuwerf]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[30-03-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Demy vd Straten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[13-08-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Charlotte van Keeken]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[07-03-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Nanette de Ruig]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[25-01-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sahar Fariwar]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[14-06-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carianne Vos]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[26-10-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kimberly vd Grift]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[21-04-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marinde Vonk]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[05-09-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Diane van de Peut]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-10-74]]></geboortedatum>
+		<type><![CDATA[Trainer/coach C1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Eduard de Jong]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[08-05-67]]></geboortedatum>
+		<type><![CDATA[Coach/Trainer C1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marleen van Ginkel]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[29-01-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Iris Jacobs]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[03-10-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Anna Terlouw]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[27-03-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sanne van Dam]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[04-09-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Arianne vd Burgt]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[14-07-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Bente Klomp]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[29-08-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Iris ter Maaten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[24-08-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Valerie van Ee]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[23-06-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marielle Klomp]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[29 - 11 2002]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Britt Mandersloot]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[01-06-01]]></geboortedatum>
+		<type><![CDATA[Trainer C2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Abia Veenvliet]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[05-11-01]]></geboortedatum>
+		<type><![CDATA[Trainer C2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Dianne ter Maaten]]></naam>
+		<team><![CDATA[Meisjes|Meisjes C2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[10-03-99]]></geboortedatum>
+		<type><![CDATA[Coach C2]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Stefan Willigenburg]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[sv / pl]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[09-06-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Rick Lagerweij]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[25-11-98]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jeroen Heikamp]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[15-02-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Fabian Bakker]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[sv]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[13-08-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Patrick Stoffelsen]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[03-02-99]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jeffrey Oudenaarden]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[03-04-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Bertil vd Vliert]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[pl / dia]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[28-08-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Marnix de Bruin]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[mi]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[01-02-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Wilbert Gotink]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[dia]]></positie>
+		<rugnummer><![CDATA[9]]></rugnummer>
+		<geboortedatum><![CDATA[30-09-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tom Verloop]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[pl]]></positie>
+		<rugnummer><![CDATA[10]]></rugnummer>
+		<geboortedatum><![CDATA[05-01-01]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jurre van Sijpveld]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[lib]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[12-06-00]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Myrthe Dijkstra]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[14-10-94]]></geboortedatum>
+		<type><![CDATA[trainer/coach  JA1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Daphne Stoffelsen]]></naam>
+		<team><![CDATA[Jongens|Jongens A1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[29-10-94]]></geboortedatum>
+		<type><![CDATA[coach JA1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jetske vd Berg]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[1]]></rugnummer>
+		<geboortedatum><![CDATA[03-07-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jochem Schimmel]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[2]]></rugnummer>
+		<geboortedatum><![CDATA[07-05-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Zo van Dijk]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[3]]></rugnummer>
+		<geboortedatum><![CDATA[21 - 8 2003]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Damian Brands]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[4]]></rugnummer>
+		<geboortedatum><![CDATA[23-03-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lex Vrijhoef]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[5]]></rugnummer>
+		<geboortedatum><![CDATA[07-06-02]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Willemijn Feldbrugge]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[6]]></rugnummer>
+		<geboortedatum><![CDATA[26-06-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Henry van Ginkel]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[7]]></rugnummer>
+		<geboortedatum><![CDATA[09-10-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kim Ebskamp]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[8]]></rugnummer>
+		<geboortedatum><![CDATA[21 - 2 2002]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Eline vd Burgt]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[11]]></rugnummer>
+		<geboortedatum><![CDATA[05-03-03]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Friso Bakker]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[24-03-05]]></geboortedatum>
+		<type><![CDATA[alleen trainen]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carlijn vd Wetering]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[13-09-89]]></geboortedatum>
+		<type><![CDATA[trainer JC1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Theo van Dijk]]></naam>
+		<team><![CDATA[Jongens|Jongens C1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[8 - 8 1968]]></geboortedatum>
+		<type><![CDATA[coach JC1]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Joyce Tekelenburg]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[14-07-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Aniek van Bennekom]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[06-03-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Bente Osnabrugge]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[15-02-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Emma de Heer]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[02-09-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Jill van Duinkerken]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[28-12-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lieke van Donkelaar]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[27-02-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Diane van de Peut]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-10-74]]></geboortedatum>
+		<type><![CDATA[Trainer ]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Gert-Jan van Donkelaar]]></naam>
+		<team><![CDATA[Mini's|Mini's 1]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[]]></geboortedatum>
+		<type><![CDATA[Coach]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Emma Habermehl]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[13-11-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tamar Tolboom]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[26-09-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Renske Berghuizen]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[31-05-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Elise van Bennekom]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[18-07-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sanne Jochemsen]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[05-07-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Roos van Ee]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[09-11-05]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carola Slotboom]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[11-05-93]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Edith ter Maaten]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[28-07-67]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Roelof van Bennekom]]></naam>
+		<team><![CDATA[Mini's|Mini's 2]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[]]></geboortedatum>
+		<type><![CDATA[Coach]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lynn vd Kamp]]></naam>
+		<team><![CDATA[Mini's|Mini's 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[13-06-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Wytske Brandsma]]></naam>
+		<team><![CDATA[Mini's|Mini's 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[30-11-04]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Geralda ter Maaten]]></naam>
+		<team><![CDATA[Mini's|Mini's 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[14-04-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sanne van de Peut]]></naam>
+		<team><![CDATA[Mini's|Mini's 4]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[06-01-00]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Nathan Bakker]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[11-06-08]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Elise Tulen]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[01-04-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Yvonne van den Brink]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[13-04-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Onno Gardenier]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[14-05-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Sven Leppers]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[12-12-06]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tessa Paauw]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[08-10-07]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Rhod  van Baaren]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-09-08]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Julia Bakker]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[07-09-72]]></geboortedatum>
+		<type><![CDATA[Coach]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Renata van Heck]]></naam>
+		<team><![CDATA[Mini's|Mini's 3]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[29-03-58]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Samantha Leyenhorst]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[05-01-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Carlijn van Setten]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[22-04-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Emma Methorst]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[02-02-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tatum van Donkelaar]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[17-11-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Kim Geijtenbeek]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[27-09-00]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Danique van Ginkel]]></naam>
+		<team><![CDATA[Mini's|Mini's 5]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[04-04-00]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Tess Geijtenbeek]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[26-05-10]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Julia Dikkenberg]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[10-04-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Saar Quint]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[27-05-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Lieke van Bennekom]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[01-10-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Finn Tanis]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[11-05-09]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[LunaÊvan de Broek]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[06-07-10]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Hanna van de Wetering]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[03-02-10]]></geboortedatum>
+		<type><![CDATA[Speler]]></type>
+	</node>
+	<node>
+		<naam><![CDATA[Myrthe Dijkstra]]></naam>
+		<team><![CDATA[Mini's|Mini's 6]]></team>
+		<positie><![CDATA[]]></positie>
+		<rugnummer><![CDATA[]]></rugnummer>
+		<geboortedatum><![CDATA[14-10-94]]></geboortedatum>
+		<type><![CDATA[Trainster]]></type>
+	</node>
+</data>

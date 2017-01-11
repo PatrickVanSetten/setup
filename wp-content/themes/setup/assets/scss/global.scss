@@ -710,12 +710,13 @@ body.nav-open #hamburger span:last-child{
                 .date {
                     color:#B9B9B9;
                     font-size:1.4rem;
-                    display:inline-block;
+                    display:block;
+                    width:100%;
                 }
                 .name {
                     display:inline-block;
                     font-weight:500;
-                    padding-left:1rem;
+                    //padding-left:1rem;
                 }
             }
         }
