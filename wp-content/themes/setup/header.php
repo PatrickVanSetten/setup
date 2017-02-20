@@ -18,7 +18,7 @@
                 <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs adressbartop">
-                <span>Marktstraat 59, 3925 JP Scherpenzeel</span>
+                <span>Sportlocatie De Breehoek, Marktstraat 59</span>
                 <?php wp_nav_menu(array('container' => false, 'theme_location' => 'secondary', 'items_wrap' => '%3$s', 'depth' => 0));?>
             </div>
             <div class="menuwrapper text-right">
@@ -79,6 +79,15 @@
     </div>
 </header>
 
+<?php  } elseif ( is_page_template( 'content.php' ) ) { ?>
+        
+<?php 
+    $header = get_field('header'); 
+    $header_image = vt_resize( $header, '', 1600, 300, true );
+?>
+<header style="background-image:url('<?php echo $header_image[url]; ?>')">
+</header>   
+    
 <?php } else { ?>
     
 <?php } ?>  

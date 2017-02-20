@@ -184,7 +184,7 @@ section{
     padding-right:5%;
     width:100%;
     max-width:1600px;
-}
+} 
 header {
     .image {
         width: 100%;
@@ -201,7 +201,14 @@ header {
         }
     }
 }
-
+.page-template-content {
+    header{
+        height:30rem;
+        width: 100%;
+        background-size: cover;
+        background-position: top center;
+    }
+}
 /* Sidebar */
 .sidebar{
     display:table;

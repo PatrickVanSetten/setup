@@ -123,6 +123,11 @@ function svg_mime_types( $mimes ) {
   return $mimes;}
 add_filter( 'upload_mimes', 'svg_mime_types' );
 
+function new_excerpt_more( $more ) {
+    return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 /*
  * Resize images dynamically using wp built in functions
  * Victor Teixeira
