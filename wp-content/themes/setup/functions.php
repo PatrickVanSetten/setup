@@ -95,6 +95,7 @@ add_action( 'wp_enqueue_scripts', 'add_js_and_css' );
     wp_enqueue_script( 'scrollreveal', get_template_directory_uri(). '/assets/js/scrollreveal.js', array( 'jquery') );
     wp_enqueue_script( 'imageloaded', get_template_directory_uri(). '/assets/js/imagesloaded.pkgd.min.js', array( 'jquery') );
     wp_enqueue_script( 'masonary', get_template_directory_uri(). '/assets/js/masonry.pkgd.min.js', array( 'jquery') );
+    wp_enqueue_script( 'equal-height', get_template_directory_uri(). '/assets/js/equal-height.js', array( 'jquery') );
     wp_enqueue_script( 'cbpGridGallery', get_template_directory_uri(). '/assets/js/cbpGridGallery.js', array( 'jquery') );
     wp_enqueue_script( 'classie', get_template_directory_uri(). '/assets/js/classie.js', array( 'jquery') );
     wp_enqueue_script( 'select', get_template_directory_uri(). '/assets/js/select2.min.js', array( 'jquery') ); 

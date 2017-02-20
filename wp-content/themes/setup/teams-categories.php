@@ -26,7 +26,7 @@ get_header(); ?>
                         <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>" class="coverlink"></a>
                         <div class="teams-image" style="background-image:url('<?php echo $image1[url]; ?>')"></div>
                         <div class="teams-content">
-                            <h3><?php echo $team->name; ?></h3>
+                            <a href="<?php echo get_term_link( $team->slug, $team->taxonomy ); ?>" class=""><h3><?php echo $team->name; ?></h3></a>
                         </div>
                     </div>
                 </div> 

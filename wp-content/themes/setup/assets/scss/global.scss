@@ -224,7 +224,8 @@ header {
             display:block;
             color:$text;
             position:relative;
-            margin-bottom:1rem;
+            margin-bottom:0rem;
+            padding-right:2rem;
             &:after{
                 content:'\0044';
                 font-family:'set up';
@@ -241,6 +242,14 @@ header {
                     right:1rem;
                 }
             }
+        }
+        li{
+            margin-bottom:1rem;
+        }
+        .post-date{
+            display:block;
+            line-height:1.5;
+            font-size:1rem;
         }
         li.current-menu-item{
             a{
@@ -319,6 +328,8 @@ li.menu-item-298.menu-item-has-children .sub-menu li{
             a{
                 font-size:1.2rem;
                 color:$dark;
+                border-left: 1px solid #c7c7c7;
+                padding-left: 1rem;
             }
         }
     }
@@ -1163,6 +1174,7 @@ body.nav-open #hamburger span:last-child{
     .contentblock {
         padding: 3rem;
         margin-top: 3rem;
+        font-size:1.5rem;
         span {
             display: block;
         }
@@ -1286,7 +1298,37 @@ footer{
 }
 #contact{
     padding:0;
-    input[type="text"], input[type="email"],textarea{
+    span.wpcf7-not-valid-tip {
+        color: white;
+        font-size: 0.7em;
+        display: block;
+        position: absolute;
+        width: auto;
+        display: table;
+        background-color: #ff3737;
+        border-radius: 10rem;
+        margin-top: 3px;
+        padding: 0.25rem 1rem;
+        &:after{
+            content: '';
+            width: 0;
+            top: -5px;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid #ff3737;
+            position: absolute;
+            left: 2rem;
+        }
+    }
+    div.wpcf7-response-output {
+        margin: 2rem 0 0;
+        padding: 1em;
+        border:none;
+        background-color:$blue;
+        color:white;
+    }
+    input[type="text"], input[type="email"],textarea, input[type="tel"], input[type="date"]{
         padding:1.5rem 2rem;
         width:100%;
         border:none;
@@ -1296,12 +1338,13 @@ footer{
         }
     }
     .wrapper {
-        padding: 5rem 15rem 5rem 15px; 
+        padding: 5rem 5rem 5rem 15px; 
     }
     .sidebar {
         background-color:white;
         padding: 5rem;
         height: 100%;
+        font-size: 1.7rem;
     }
     .wpcf7-submit{
         border:none;
