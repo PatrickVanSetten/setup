@@ -15,23 +15,23 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-md-4 col-sm-6 col-xs-4 brand">
-                <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
+                <a class="logo" href="<?php echo get_site_url(); ?>"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs adressbartop">
                 <span>Sportlocatie De Breehoek, Marktstraat 59</span>
                 <?php wp_nav_menu(array('container' => false, 'theme_location' => 'secondary', 'items_wrap' => '%3$s', 'depth' => 0));?>
             </div>
             <div class="menuwrapper text-right">
-                <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0));?>
+                <?php wp_nav_menu(array('container' => false, 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'depth' => 0, 'walker' => new Child_Wrap() ));?>
             </div>
         </div>
     </div>
-</section>    
-    
+</section>
+
 <section id="mobile-header" class="ptn pbn navbar-fixed-top">
     <div class="container-fluid">
         <div class="brand">
-            <a class="logo" href="/"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
+            <a class="logo" href="<?php echo get_site_url(); ?>"><img src="<?= get_template_directory_uri()?>/assets/img/logo.svg" alt="Logo"/></a>
         </div>
         <button id="hamburger">
             <span></span>
@@ -80,6 +80,15 @@
 </header>
 
 <?php  } elseif ( is_page_template( 'content.php' ) ) { ?>
+        
+<?php 
+    $header = get_field('header'); 
+    $header_image = vt_resize( $header, '', 1600, 300, true );
+?>
+<header style="background-image:url('<?php echo $header_image[url]; ?>')">
+</header>   
+    
+<?php  } elseif ( is_page_template( 'vereniging.php' ) ) { ?>
         
 <?php 
     $header = get_field('header'); 

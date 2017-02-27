@@ -18,7 +18,6 @@ jQuery(document).ready(function($) {
 			$('body').removeClass('scrolled');
 		}
 	});
-
     
     offsetcontainer();
     calcheight();

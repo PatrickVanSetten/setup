@@ -9,7 +9,10 @@ get_header(); ?>
         <div class="row">
             <div class="wrapper bg-white">
                 <h1><?php the_title(); ?></h1>
-                <p><?php the_field('intro');?></p>
+                  
+                <?php while ( have_posts() ) : the_post(); ?>
+                <?php the_content(); ?>
+                <?php endwhile; // end of the loop. ?>
 
                 <?php 
 

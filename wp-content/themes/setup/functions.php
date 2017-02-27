@@ -129,6 +129,20 @@ function new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
+class Child_Wrap extends Walker_Nav_Menu
+{
+   function start_lvl(&$output, $depth)
+   {
+       $indent = str_repeat("\t", $depth);
+       $output .= "\n$indent<ul class=\"sub-menu\"><div class=\"container-fluid\">\n";
+   }
+   function end_lvl(&$output, $depth)
+   {
+       $indent = str_repeat("\t", $depth);
+       $output .= "$indent</div></ul>\n";
+   }
+} 
+
 /*
  * Resize images dynamically using wp built in functions
  * Victor Teixeira
@@ -475,6 +489,40 @@ register_taxonomy( "coaches-teams",
 							'with_front' => false)
 		 ) 
 );
+
+/*
+ * Sponsors
+ */
+add_action('init', 'create_redvine_sponsors');
+function create_redvine_sponsors() 
+{
+  $labels = array(
+    'name' => _x('Sponsoren', 'sponsors'),
+    'singular_name' => _x('Sponsoren', 'sponsors'),
+    'add_new' => _x('Nieuwe sponsor', 'sponsors'),
+    'add_new_item' => __('Nieuwe sponsor'),
+    'edit_item' => __('Bewerk sponsor'),
+    'new_item' => __('Nieuwe sponsor'),
+    'view_item' => __('Bekijk sponsor'),
+    'search_items' => __('Zoek naar een sponsor'),
+    'not_found' =>  __('Geen sponsor gevonden'),
+    'not_found_in_trash' => __('Geen sponsor in de prullenbak gevonden'), 
+    'parent_item_colon' => ''
+  );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'show_ui' => true, 
+    'query_var' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'menu_icon' => 'dashicons-star-filled',
+    'hierarchical' => false,
+    'menu_position' => 20,
+    'supports' => array('title','thumbnail','revisions', 'editor')
+  ); 
+  register_post_type('sponsors',$args);
+}
 
 
 /*

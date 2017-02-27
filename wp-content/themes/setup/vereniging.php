@@ -26,11 +26,11 @@ get_header(); ?>
                             // loop through the rows of data
                             while ( have_rows('contactpersoon') ) : the_row();?>
                             
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                 <div class="contentblock bg-white">
                                     <span><b><?php the_sub_field('titel')?></b></span>
                                     <span><?php the_sub_field('naam')?></span>
-                                    <span><?php the_sub_field('woonplaats')?></span>
+                                    <!--<span><?php the_sub_field('woonplaats')?></span>-->
                                     <span><?php the_sub_field('telefoon')?></span>
                                     <a href="mailto:<?php the_sub_field('email')?>">Stuur een mail</a>
                                 </div>

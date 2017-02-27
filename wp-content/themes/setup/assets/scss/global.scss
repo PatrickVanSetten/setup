@@ -6,15 +6,15 @@
 @import 'nav';   
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
 
-@font-face {
+@font-face { 
 	font-family: 'fontawesome';
 	src:url('../fonts/fontawesome/fontawesome.eot?-e43dk9');
 	src:url('../fonts/fontawesome/fontawesome.eot?#iefix-e43dk9') format('embedded-opentype'),
 		url('../fonts/fontawesome/fontawesome.woff?-e43dk9') format('woff'),
 		url('../fonts/fontawesome/fontawesome.ttf?-e43dk9') format('truetype'),
 		url('../fonts/fontawesome/fontawesome.svg?-e43dk9#fontawesome') format('svg');
-	font-weight: normal;
-	font-style: normal; 
+	font-weight: normal; 
+	font-style: normal;
 }
 @font-face {
     font-family: 'set up';
@@ -22,7 +22,7 @@
     src: url('../fonts/icons/set-up.eot?#iefix') format('embedded-opentype'),
          url('../fonts/icons/set-up.woff') format('woff'),
          url('../fonts/icons/set-up.ttf') format('truetype'),
-         url('../fonts/icons/set-up.svg#set-up') format('svg');
+         url('../fonts/icons/set-up.svg#set-up') format('svg'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -155,6 +155,19 @@ td,th {
     z-index:1;
     //margin-top:-45rem;
 }
+#post{
+    overflow:hidden;
+    position:relative;
+}
+.greybarright {
+    position:absolute;
+    right: 0; 
+    top:0;
+    background-color:$grey;
+    height:900rem;
+    z-index:1;
+    //margin-top:-45rem;
+}
 .whitebarleft {
     position:absolute;
     left: 0; 
@@ -221,7 +234,7 @@ header {
         list-style:none;
         padding:0;
         a{
-            display:block;
+            display:block; 
             color:$text;
             position:relative;
             margin-bottom:0rem;
@@ -316,6 +329,24 @@ li.menu-item-298.menu-item-has-children .sub-menu li{
         list-style: none;
         display:inline-block;
         margin-left:0.5rem;
+        &.current-menu-ancestor{
+            & > a{
+                color:rgba(0,0,0,0.3) !important; 
+            }
+        }
+        &.current-menu-item{
+            a{
+                color:rgba(0,0,0,0.3) !important;
+                font-weight:bold !important;
+            }
+        }
+        .sub-menu{
+            li.current-menu-ancestor{
+            & > a{
+                    color:white !important; 
+                }
+            }
+        }
     }
     a {
         color:#fff;
@@ -342,6 +373,31 @@ li.menu-item-298.menu-item-has-children .sub-menu li{
             padding: 3.3rem 0;
             margin-left: 0.5rem;
             position:relative;
+        }
+        & > li.current-menu-ancestor{
+            & > a{
+                color:rgba(0,0,0,0.3)!important; 
+                font-weight:bold !important;
+            }
+        }
+        & > li.current-menu-item{
+            .sub-menu a{
+                color:white !important;
+                font-weight:inherit !important;
+            }
+        }
+        & > li.current-menu-item{
+            a{
+                color:rgba(0,0,0,0.3) !important;
+                font-weight:bold !important;
+            }
+        }
+        .sub-menu{
+            li.current-menu-ancestor{
+            & > a{
+                    color:white !important; 
+                }
+            }
         }
     }
     .adressbarright {
@@ -377,7 +433,7 @@ li.menu-item-298.menu-item-has-children .sub-menu li{
     right:0;
     padding:0;
     background-color:$darkerblue;
-    padding:3rem 5% 3rem;
+    padding:3rem 0;
     visibility:hidden;
     @include opacity(0);
     @include transition(0.3s all ease-in-out);
@@ -388,7 +444,7 @@ li.menu-item-298.menu-item-has-children .sub-menu li{
         text-align:left;
         font-weight:800 !important;
         margin-left:0 !important;
-        margin-bottom:2rem !important;
+        margin-bottom:1rem !important;
     }
     ul{
         padding:0;
@@ -420,6 +476,11 @@ li.menu-item-has-children{
                         &:hover{
                             @include opacity(1);
                         }
+                    }
+                }
+                .sub-menu{
+                    .container-fluid{
+                        padding:0;
                     }
                 }
             }
@@ -514,7 +575,7 @@ li.menu-item-has-children{
     z-index: 1029;
     display: flex;
     width: 100%;
-    height: calc(100vh - 8.8rem);
+    height: 100vh;
     background-color: $darkblue;
     @include transition(0.3s all ease);
     @include transform(translateY(-100%));
@@ -527,7 +588,7 @@ li.menu-item-has-children{
     @include justify-content(center);
     @include flex-direction(column);
     width: 100%;
-    height: calc(100vh - 8.8rem);
+    height: 100vh;
     li{
         list-style:none;
         padding:0;
@@ -804,13 +865,6 @@ body.nav-open #hamburger span:last-child{
         background-size:60%;
         background-position: center center;
         background-repeat:no-repeat;
-        @include filter (grayscale(100%))
-        @include opacity(0.5);
-        @include transition(0.3s all ease-in-out);
-        &:hover {
-            @include opacity(1);
-            @include filter (grayscale(0%))
-        }
     }
 }
 
@@ -902,7 +956,7 @@ body.nav-open #hamburger span:last-child{
         padding: 7rem 0;
         position: relative;
         bottom: -4rem;
-        z-index: 2;
+        z-index: 9;
         h2 {
             padding-bottom:4rem; 
         }
@@ -964,6 +1018,32 @@ body.nav-open #hamburger span:last-child{
     }
 }
 
+/* Vereniging overview */
+#vereniging-overzicht {
+    .wrapper{
+        position:relative;
+        margin-bottom:4rem;
+        .coverlink{
+            bottom:11rem;
+        }
+        .image{
+            padding-left:3rem;
+            min-height:20rem;
+            background-size:cover;
+            background-position:center center;
+        }
+        .content{
+            padding:3rem;
+            h3{
+                margin-top:0;
+                color:$title;
+                text-transform:uppercase;
+                font-weight:700;
+            }
+        }
+    }
+}
+
 /* Event */
 #event {
     position: relative;
@@ -1010,6 +1090,9 @@ body.nav-open #hamburger span:last-child{
     .sidebar {
         padding: 4rem 5rem 5rem 15px;
         height: 100%;
+    }
+    p{
+        margin-bottom:2rem;
     }
 }
 /* Photos */
@@ -1075,6 +1158,11 @@ body.nav-open #hamburger span:last-child{
         tr {
             padding: 1rem;
         }
+        
+         .trainer{
+            margin-bottom:1rem;
+            display:inline-block;
+        }
         .info {
             padding: 1.5rem;
             font-size: 1.2rem;
@@ -1119,6 +1207,7 @@ body.nav-open #hamburger span:last-child{
                 display:inline-block;
                 width: 10%;
                 text-align: right;
+                text-transform:uppercase;
             }
         }
         table.nevobofeed{
@@ -1162,6 +1251,26 @@ body.nav-open #hamburger span:last-child{
     }
 }
 
+tbody{
+    tr:nth-child(odd){
+         background-color:#f9f9f9;
+        
+    }
+}
+#full-width{
+    tbody,table{
+        width:100%;
+    }
+}
+.page-id-1578{
+    tbody{
+        font-size:1.3rem;
+        td[align="right"]{
+            font-size:1rem;
+        }
+    }
+}
+
 /* Vereniging */
 #vereniging {
     .wrapper {
@@ -1177,6 +1286,9 @@ body.nav-open #hamburger span:last-child{
         font-size:1.5rem;
         span {
             display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
     }
 }
@@ -1216,6 +1328,8 @@ footer{
     color:white;
     font-size:1.75rem;
     line-height:1.75;
+    z-index:3;
+    position:relative;
     h3{
         margin-bottom:3rem;
         font-weight:700;
@@ -1298,6 +1412,12 @@ footer{
 }
 #contact{
     padding:0;
+    position:relative;
+    overflow:hidden;
+    .whitebarright{
+        z-index:1;
+        height:calc(100% + 175rem);
+    }
     span.wpcf7-not-valid-tip {
         color: white;
         font-size: 0.7em;
@@ -1338,7 +1458,7 @@ footer{
         }
     }
     .wrapper {
-        padding: 5rem 5rem 5rem 15px; 
+        padding: 5rem 5rem 5rem 0; 
     }
     .sidebar {
         background-color:white;
@@ -1349,6 +1469,13 @@ footer{
     .wpcf7-submit{
         border:none;
     }
+}
+
+/* Sponsoren */
+#logos .logo .wrapper img {
+    max-width: 80%;
+    margin: 0 auto 3rem;
+    display: block;
 }
 
 @import 'responsive';

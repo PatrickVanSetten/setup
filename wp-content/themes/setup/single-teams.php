@@ -29,8 +29,40 @@ get_header(); ?>
 
                                     ?>
                                     <div>
-                                        <p>Coach: <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+                                        <p>Coach: <?php the_title(); ?></p>
                                     </div>
+                                    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                            <?php endif; ?>
+                            
+                                    <?php
+
+                                $post_object = get_field('kies_trainers');
+
+                                if( $post_object ): 
+
+                                    // override $post
+                                    $post = $post_object;
+                                    setup_postdata( $post ); 
+
+                                    ?>
+                                    
+                                        Trainer(s): <span class="trainer"><?php the_title(); ?></span>
+                                    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                            <?php endif; ?>
+                                        
+                            <?php
+
+                                $post_object = get_field('kies_trainers_2');
+
+                                if( $post_object ): 
+
+                                    // override $post
+                                    $post = $post_object;
+                                    setup_postdata( $post ); 
+
+                                    ?>
+                                       <span> - <?php the_title(); ?></span>
+                                    
                                     <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                             <?php endif; ?>
                             
@@ -62,6 +94,7 @@ get_header(); ?>
                                 $myposts = get_posts(array(
                                     'showposts' => -1,
                                     'post_type' => 'spelers',
+                                    'order' => 'ASC',
                                     'tax_query' => array(
                                         array(
                                         'taxonomy' => 'spelers-teams',

@@ -26,7 +26,7 @@ get_header(); ?>
                                 // loop through the rows of data
                                 while ( have_rows('bestanden') ) : the_row();?>
 
-                                <a href="<?php the_sub_field('bestand')?>">
+                                <a target="_blank" href="<?php the_sub_field('bestand')?>">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="contentblock">
                                             <?php the_sub_field('naam')?>

@@ -24,7 +24,7 @@ get_header(); ?>
                 $date = get_the_date();
                 ?>
             
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="event-wrapper bg-white">
                         <a href="<?php the_permalink(); ?>" class="coverlink"></a>
                         <div class="event-image" style="background-image: url(<?php echo $image[url]; ?>)">

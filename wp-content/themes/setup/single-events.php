@@ -35,6 +35,8 @@ get_header(); ?>
                             $filter['beschrijving'] = strtolower( get_field('beschrijving') );
                             $thumb = get_post_thumbnail_id(); 
                             $image = vt_resize( $thumb, '', 800, 400, true );
+                        
+                            $date = get_field('datum'); 
                             ?>
 
                             <?php
@@ -45,8 +47,8 @@ get_header(); ?>
                                         <a href="<?php the_permalink(); ?>" class="">
                                             <?php the_title(); ?>
                                             <div class="datum">
-                                                <div class="date"><?php $date = new DateTime(get_field('datum')); echo $date->format('d'); ?></div>
-                                                <div class="month"><?php $date = new DateTime(get_field('datum')); echo $date->format('M'); ?></div>  
+                                                <div class="date"><?php echo $date = date("d"); ?></div>
+                                                <div class="month"><?php echo $date = date("M"); ?></div> 
                                             </div>
                                         </a>
                                     </li>
