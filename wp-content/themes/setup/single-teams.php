@@ -146,10 +146,35 @@ get_header(); ?>
                     <nav class="nav-sidebar">
                         <h3>Snel navigeren</h3>
                         <ul class="nav tabs">
-                            <li class="active"><a href="#team-informatie" data-toggle="tab">Team informatie</a></li>
-                            <li class=""><a href="#stand" data-toggle="tab">Stand</a></li>
-                            <li class=""><a href="#uitslagen" data-toggle="tab">Uitslagen</a></li>
-                            <li class=""><a href="#programma" data-toggle="tab">Programma</a></li> 
+                            <?php
+                                global $post;
+
+                                if ($post->post_parent == 206) {
+                            ?>
+                                <li class="active"><a href="#team-informatie" data-toggle="tab">Team informatie</a></li>
+                                <li class=""><a href="<?php get_template_directory_uri() ?>/teams/minis/standen/">Stand</a></li>
+                                <li class=""><a href="<?php get_template_directory_uri() ?>/teams/minis/programmas-en-data/">Programma</a></li>
+                            <?php 
+                                }
+                                
+                                global $post;
+                            
+                                if ($post->post_parent == 238) { 
+                            ?>
+                                <li class="active"><a href="#team-informatie" data-toggle="tab">Team informatie</a></li>
+                                <li class=""><a href="<?php get_template_directory_uri() ?>/teams/recreatie/standen/">Stand</a></li>
+                                <li class=""><a href="<?php get_template_directory_uri() ?>/teams/recreatie/uitslagen/">Uitslagen</a></li>
+                                <li class=""><a href="<?php get_template_directory_uri() ?>/teams/recreatie/programma/">Programma</a></li>
+                            <?php 
+                                } if ($post->post_parent !== 206 && $post->post_parent !== 238) {
+                            ?>
+                                <li class="active"><a href="#team-informatie" data-toggle="tab">Team informatie</a></li>
+                                <li class=""><a href="#stand" data-toggle="tab">Stand</a></li>
+                                <li class=""><a href="#uitslagen" data-toggle="tab">Uitslagen</a></li>
+                                <li class=""><a href="#programma" data-toggle="tab">Programma</a></li>   
+                            <?php
+                                }
+                            ?>
                         </ul>
                     </nav>
                 </div>
